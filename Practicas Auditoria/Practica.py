@@ -84,4 +84,7 @@ tipo_datos(columnas_interes)
 datos.loc[datos['Cantidad'].isna(), 'Cantidad'] = (datos.loc[datos['Cantidad'].isna(), 
                                                              'Total_Calculado'] / datos.loc[datos['Cantidad'].isna(), 'Precio_Unitario'])
 
+# Reset de index para organizar datos
+datos = datos.reset_index(drop="True")
+
 print(datos)

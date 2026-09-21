@@ -18,17 +18,19 @@ Continuación de los fundamentos de Python. Se incorporan estructuras de datos, 
 
 ### [Clase 3](./Clase%203/)
 
-Se incorporan el alcance de variables (_scope_) y la lectura de archivos externos. Se analizan datos de ventas en formato CSV.
+Se incorporan el alcance de variables (_scope_) y la lectura de archivos externos. Se analizan datos de ventas en formatos CSV y Excel.
 
 - `Clase3.py`
 - [`ventas.csv`](./Clase%203/ventas.csv)
+- [`ventas.xlsx`](./Clase%203/ventas.xlsx)
 
 ### [Clase 4](./Clase%204/)
 
-Se profundiza el análisis de datos utilizando información sobre satisfacción de clientes y archivos CSV.
+Se profundiza el análisis de datos utilizando información sobre satisfacción de clientes. Se aplican los conocimientos anteriores y se incorporan nuevas actividades con archivos CSV y Excel.
 
 - `Clase4.py`
 - [`satis_clientes.csv`](./Clase%204/satis_clientes.csv)
+- [`Actividad 2.xlsx`](./Clase%204/Actividad%202.xlsx)
 
 ### [Clase 5](./Clase%205/)
 
@@ -40,7 +42,15 @@ Se continúa con el análisis de datos de clientes y productos mediante archivos
 
 ### [Clase 6](./Clase%206/)
 
-Carpeta destinada a las actividades de la sexta clase. Actualmente no contiene archivos.
+Se introducen las operaciones de transformación en pandas, contemplando filtros y selecciones.
+
+El archivo dispone de la importación de un modulo de seaborn con el archivo 'titanic.csv' para realizar las practicas.
+
+- `Clase6.py`
+
+### [Clase 7](./Clase%207/)
+
+Carpeta destinada a las actividades de la septima clase. Actualmente no contiene archivos.
 
 ### [Prácticas de auditoría](./Practicas%20Auditoria/)
 
@@ -83,15 +93,19 @@ Cursada Analisis de Datos/
 │   └── Clase2.py
 ├── Clase 3/
 │   ├── Clase3.py
-│   └── ventas.csv
+│   ├── ventas.csv
+│   └── ventas.xlsx
 ├── Clase 4/
 │   ├── Clase4.py
-│   └── satis_clientes.csv
+│   ├── satis_clientes.csv
+│   └── Actividad 2.xlsx
 ├── Clase 5/
 │   ├── Clase5.py
 │   ├── data_clientes.csv
 │   └── productos.csv
 ├── Clase 6/
+│   ├── Clase6.py
+├── Clase 7/
 ├── Practicas Auditoria/
 │   ├── Practica.py
 │   └── datos_ventas_para_auditoria.csv
