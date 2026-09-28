@@ -43,14 +43,22 @@ Se continúa con el análisis de datos de clientes y productos mediante archivos
 ### [Clase 6](./Clase%206/)
 
 Se introducen las operaciones de transformación en pandas, contemplando filtros y selecciones.
-
 El archivo dispone de la importación de un modulo de seaborn con el archivo 'titanic.csv' para realizar las practicas.
 
 - `Clase6.py`
 
 ### [Clase 7](./Clase%207/)
 
-Carpeta destinada a las actividades de la septima clase. Actualmente no contiene archivos.
+Se presentan funciones de agregacion y agrupamiento de datos
+Se uso un recurso creado como un diccionario y el archivo 'ventas.csv'
+
+- `Clase7.py`
+
+### [Clase 8](./Clase%208/)
+
+Carpeta de clase 8, todavia sin contenidos.
+
+- `Clase8.py`
 
 ### [Prácticas de auditoría](./Practicas%20Auditoria/)
 
@@ -106,6 +114,8 @@ Cursada Analisis de Datos/
 ├── Clase 6/
 │   ├── Clase6.py
 ├── Clase 7/
+│   ├── Clase7.py
+├── Clase 8/
 ├── Practicas Auditoria/
 │   ├── Practica.py
 │   └── datos_ventas_para_auditoria.csv
