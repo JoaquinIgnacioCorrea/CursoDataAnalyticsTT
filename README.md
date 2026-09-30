@@ -56,9 +56,15 @@ Se uso un recurso creado como un diccionario y el archivo 'ventas.csv'
 
 ### [Clase 8](./Clase%208/)
 
-Carpeta de clase 8, todavia sin contenidos.
+Combinacion de diferentes fuentes de datos.
+Se realiza una introduccion en la combinacion de datos tanto en python puro como en librerias tales como numpy y pandas.
+Viendo metodos como merge, join y concat.
 
 - `Clase8.py`
+- [`data_empleados.csv`](./Clase%208/data_empleados.csv)
+- [`situacion_empleados.csv`](./Clase%208/situacion_empleados.csv)
+- [`ventas - Norte.csv`](./Clase%208/ventas%20-%20Norte.csv)
+- [`ventas - Sur.csv`](./Clase%208/ventas%20-%20Sur.csv)
 
 ### [Prácticas de auditoría](./Practicas%20Auditoria/)
 
@@ -116,6 +122,11 @@ Cursada Analisis de Datos/
 ├── Clase 7/
 │   ├── Clase7.py
 ├── Clase 8/
+│   ├── Clase8.py
+│   ├── data_empleados.csv
+│   ├── situacion_empleados.csv
+│   ├── ventas - Norte.csv
+│   ├── ventas - Sur.csv
 ├── Practicas Auditoria/
 │   ├── Practica.py
 │   └── datos_ventas_para_auditoria.csv
