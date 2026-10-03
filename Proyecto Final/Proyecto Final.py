@@ -5,7 +5,7 @@ import numpy as np
 # CONSIGNA: Realizar un script básico que calcule las ventas mensuales utilizando variables y operadores.
 ventas = pd.read_csv("Proyecto Final/Fuentes/ventas.csv")
 
-Ventas_mensuales_total = {
+ventas_mensuales_total = {
     "01": 0,
     "02": 0,
     "03": 0,
@@ -29,9 +29,9 @@ for venta in ventas.iterrows():
         except:
             print(f"Datos faltantes en la venta con id: {venta[1]["id_venta"]}")
     total_venta = precio_producto * cantidad_producto
-    Ventas_mensuales_total[mes] += total_venta
+    ventas_mensuales_total[mes] += total_venta
 
-print(Ventas_mensuales_total)
+print(ventas_mensuales_total)
 
 # CONSIGNA: Estructuras de datos: Desarrollar un programa que almacene los datos de ventas (producto, precio, cantidad). 
 # Decidir si conviene utilizar diccionarios o listas.
@@ -112,7 +112,9 @@ ventas_limpio = ventas_sin_nulos
 
 # a.Aplicamos formato en dataframe para trabajar con filtros
 ventas_limpio["producto"] = ventas_limpio["producto"].str.strip()
+ventas_limpio["producto"] = ventas_limpio["producto"].str.lower()
 ventas_limpio["categoria"] = ventas_limpio["categoria"].str.strip()
+ventas_limpio["categoria"] = ventas_limpio["categoria"].str.lower()
 
 # a.1.Aplico formato a ventas para pasarlo a numero flotante
 ventas_limpio["precio"] = ventas_limpio["precio"].str.strip()
@@ -120,7 +122,7 @@ ventas_limpio["precio"] = ventas_limpio["precio"].str.replace("$","")
 ventas_limpio["precio"] = ventas_limpio["precio"].astype(float)
 
 # a.2.Aplico formato fecha a la fecha de la venta
-ventas_limpio["fecha_venta"] = pd.to_datetime(ventas_limpio["fecha_venta"], errors="coerce")
+ventas_limpio["fecha_venta"] = pd.to_datetime(ventas_limpio["fecha_venta"], errors="coerce", format="%d/%m/%Y")
 
 # a.3.Creo una columna que realiza el total de la venta para su filtrado
 ventas_limpio["total_venta"] = ventas_limpio["precio"] * ventas_limpio["cantidad"]
@@ -140,3 +142,44 @@ ventas_total_categoria = pd.DataFrame(ventas_limpio.groupby(["categoria"])["tota
 print(f"Total de recaudacion por categoria:\n{ventas_total_categoria}")
 
 # CONSIGNA: Integración de datos: Combinar los sets de datos de ventas y marketing para obtener una visión más amplia de las tendencias.
+marketing = pd.read_csv("Proyecto Final/Fuentes/marketing.csv")
+
+# a.1.Hacemos analisis inicial de datos
+print(f"Primeros 3 registros:\n{marketing.head(3)}\nDimensiones del dataframe:{marketing.shape}\nColumnas del dataframe:\
+\n{marketing.columns}\nTipo de datos:\n{marketing.dtypes}\nBreve analisis del dataframe:\n{marketing.describe()}")
+
+# a.2.Hacemos calidad de datos con el dataframe marketing
+datos_duplicados_marketing = marketing[marketing["id_campanha"].duplicated()]
+cantidad_duplicados_marketing = len(datos_duplicados_marketing)
+
+registros_marketing_datos_nulos = marketing[marketing.isna().any(axis=1)]
+cantidad_registros_con_nulos_marketing = len(registros_marketing_datos_nulos)
+
+print(f"Cantidad de registros sin limpieza de duplicados o nulos: {len(marketing)}")
+# a.2.1.Eliminamos datos duplicados
+marketing_sin_duplicados = marketing.drop_duplicates(subset="id_campanha")
+print(f"Cantidad de registros con datos duplicados del dataframe marketing: {cantidad_duplicados_marketing}\
+\nCantidad de registros sin duplicados: {len(marketing_sin_duplicados)}")
+
+marketing_limpio = marketing_sin_duplicados.dropna()
+
+print(f"Cantidad registros con datos nulos:{cantidad_registros_con_nulos_marketing}\nCantidad registros sin datos nulos: {len(marketing_limpio)}")
+
+# a.2.2 Formateamos datos para asegurar consistencia de formato
+marketing_limpio["producto"] = marketing_limpio["producto"].str.strip()
+marketing_limpio["producto"] = marketing_limpio["producto"].str.lower()
+marketing_limpio["canal"] = marketing_limpio["canal"].str.strip()
+marketing_limpio["canal"] = marketing_limpio["canal"].str.lower()
+
+marketing_limpio["fecha_inicio"] = marketing_limpio["fecha_inicio"].str.strip()
+marketing_limpio["fecha_fin"] = marketing_limpio["fecha_fin"].str.strip()
+
+marketing_limpio["fecha_inicio"] = pd.to_datetime(marketing_limpio["fecha_inicio"], errors="coerce", format="%d/%m/%Y")
+marketing_limpio["fecha_fin"] = pd.to_datetime(marketing_limpio["fecha_fin"], errors="coerce", format="%d/%m/%Y")
+
+print(marketing_limpio.head(3))
+# b.1.Integramos ambos dataframe
+
+ventas_marketing_completo = pd.merge(ventas_total_producto,marketing_limpio, on="producto", how="outer")
+
+print(f"Combinacion de total de ventas y marketing por producto:\n{ventas_marketing_completo}")

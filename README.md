@@ -43,22 +43,22 @@ Se continúa con el análisis de datos de clientes y productos mediante archivos
 ### [Clase 6](./Clase%206/)
 
 Se introducen las operaciones de transformación en pandas, contemplando filtros y selecciones.
-El archivo dispone de la importación de un modulo de seaborn con el archivo 'titanic.csv' para realizar las practicas.
+El archivo dispone de la importación de un módulo de seaborn con el archivo `titanic.csv` para realizar las prácticas.
 
 - `Clase6.py`
 
 ### [Clase 7](./Clase%207/)
 
-Se presentan funciones de agregacion y agrupamiento de datos
-Se uso un recurso creado como un diccionario y el archivo 'ventas.csv'
+Se presentan funciones de agregación y agrupamiento de datos.
+Se utiliza un recurso creado como diccionario y el archivo `ventas.csv`.
 
 - `Clase7.py`
 
 ### [Clase 8](./Clase%208/)
 
-Combinacion de diferentes fuentes de datos.
-Se realiza una introduccion en la combinacion de datos tanto en python puro como en librerias tales como numpy y pandas.
-Viendo metodos como merge, join y concat.
+Combinación de diferentes fuentes de datos.
+Se realiza una introducción a la combinación de datos tanto en Python puro como en librerías tales como NumPy y pandas.
+Se utilizan métodos como `merge`, `join` y `concat`.
 
 - `Clase8.py`
 - [`data_empleados.csv`](./Clase%208/data_empleados.csv)
@@ -75,9 +75,9 @@ Prácticas de análisis y auditoría de datos de ventas utilizando Python y arch
 
 ### [Proyecto final](./Proyecto%20Final/)
 
-Aplicación de los contenidos desarrollados durante el curso en un proyecto de análisis de datos.
+Aplicación de los contenidos desarrollados durante el curso en un proyecto de análisis de datos sobre ventas y acciones de marketing.
 
-El proyecto incluye un script de Python, fuentes de datos CSV y documentos con la consigna y la rúbrica de evaluación.
+La preentrega incluye el análisis exploratorio y el control de calidad de los datos de ventas, la limpieza y transformación de los registros, el cálculo de ventas por producto y categoría, y la integración de ventas con marketing mediante una combinación por producto.
 
 - [`Proyecto Final.py`](./Proyecto%20Final/Proyecto%20Final.py)
 - [`Fuentes/clientes.csv`](./Proyecto%20Final/Fuentes/clientes.csv)
@@ -85,6 +85,17 @@ El proyecto incluye un script de Python, fuentes de datos CSV y documentos con l
 - [`Fuentes/ventas.csv`](./Proyecto%20Final/Fuentes/ventas.csv)
 - [`Consigna - Rubrica/Rúbrica de Evaluación - Preentrega Data Analytics - Rúbrica.pdf`](./Proyecto%20Final/Consigna%20-%20Rubrica/R%C3%BAbrica%20de%20Evaluaci%C3%B3n%20-%20Preentrega%20Data%20Analytics%20-%20R%C3%BAbrica.pdf)
 - [`Consigna - Rubrica/Sets de datos.pdf`](./Proyecto%20Final/Consigna%20-%20Rubrica/Sets%20de%20datos.pdf)
+
+## Cómo ejecutar
+
+Los scripts utilizan Python y, según la clase, las librerías `pandas`, `numpy` y `seaborn`. Para ejecutar el proyecto final:
+
+```powershell
+python -m pip install pandas numpy seaborn openpyxl
+python "Proyecto Final/Proyecto Final.py"
+```
+
+El comando debe ejecutarse desde la carpeta raíz del repositorio, porque el script utiliza rutas relativas para acceder a los archivos de `Proyecto Final/Fuentes/`.
 
 ## Progresión de contenidos
 
@@ -94,8 +105,10 @@ El repositorio refleja una incorporación progresiva de conceptos:
 2. Estructuras de datos y procesamiento de información.
 3. Scope de variables y lectura de archivos externos.
 4. Análisis de archivos CSV y Excel.
-5. Análisis de clientes, marketing y ventas con archivos CSV.
-6. Aplicación de los contenidos en prácticas de auditoría y en el proyecto final.
+5. Transformación y limpieza de datos con pandas.
+6. Agregación y agrupamiento de información.
+7. Combinación de fuentes de datos con `merge`, `join` y `concat`.
+8. Aplicación de los contenidos en prácticas de auditoría y en el proyecto final.
 
 ## Estructura del repositorio
 
@@ -118,9 +131,9 @@ Cursada Analisis de Datos/
 │   ├── data_clientes.csv
 │   └── productos.csv
 ├── Clase 6/
-│   ├── Clase6.py
+│   └── Clase6.py
 ├── Clase 7/
-│   ├── Clase7.py
+│   └── Clase7.py
 ├── Clase 8/
 │   ├── Clase8.py
 │   ├── data_empleados.csv
