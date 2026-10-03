@@ -3,7 +3,6 @@ import numpy as np
 
 # SECCION 1
 # CONSIGNA: Realizar un script básico que calcule las ventas mensuales utilizando variables y operadores.
-
 ventas = pd.read_csv("Proyecto Final/Fuentes/ventas.csv")
 
 Ventas_mensuales_total = {
@@ -32,11 +31,10 @@ for venta in ventas.iterrows():
     total_venta = precio_producto * cantidad_producto
     Ventas_mensuales_total[mes] += total_venta
 
-# print(Ventas_mensuales_total)
+print(Ventas_mensuales_total)
 
 # CONSIGNA: Estructuras de datos: Desarrollar un programa que almacene los datos de ventas (producto, precio, cantidad). 
 # Decidir si conviene utilizar diccionarios o listas.
-
 ventas_clasificadas = {
     "Decoración":[],
     "Electrodomésticos":[],
@@ -66,14 +64,79 @@ for venta in ventas.iterrows():
                 ventas_clasificadas["Electrónica"].append(nueva_venta)
         except:
             print(f"Error con la venta: {venta[1]["id_venta"]}")
+            
 
 print(f"Se genero el diccionario correctamente llamado 'Ventas Clasificadas' que tiene la sig \
 cantidad de registros:\nDecoración: {len(ventas_clasificadas['Decoración'])}\nElectrodomésticos:\
  {len(ventas_clasificadas["Electrodomésticos"])}\nElectrónica: {len(ventas_clasificadas['Electrónica'])}")
 
 # CONSIGNA: Introducción a Pandas: realizar un análisis exploratorio inicial de los DataFrames.
-
 print(f"Analisis de la fuente ventas:\nPrimeros 3 registros:\n{ventas.head(3)}\nDimensiones de la fuente(filas,columnas): {ventas.shape}\
 \nColumnas: {ventas.columns}\nTipo datos:\n{ventas.dtypes}\nDescripcion general mediante metodo:\n{ventas.describe()}")
+
+# CONSIGNA: Calidad de datos: Identificar valores nulos y duplicados en los conjuntos de datos. 
+# Documentar el estado inicial de los datos.
+# a.Verificar cantidad de duplicados
+ventas_duplicadas = ventas[ventas["id_venta"].duplicated()]
+cantidad_duplicados = len(ventas_duplicadas)
+
+print(f"Cantidad de duplicados: {cantidad_duplicados}\nRegistros duplicados:\n{ventas_duplicadas}")
+
+# b.Verificar cantidad de registros con datos faltantes
+ventas_con_datos_nulos = ventas[ventas.isna().any(axis=1)]
+cantidad_nulos = len(ventas_con_datos_nulos)
+columnas_datos_nulos = ventas.isna().sum()
+
+print(f"Cantidad de registros con datos nulos: {cantidad_nulos}\nColumnas con datos nulos:\n{columnas_datos_nulos}\n\
+Registros nulos:\n{ventas_con_datos_nulos}")
+
+# Comentario -> Podemos observar que el dataset de ventas presenta 35 registros duplicados y 2 registros con datos nulos en precio y cantidad
+
+# SECCION 2
+# CONSIGNA: Limpieza de datos: Limpiar el conjunto de datos eliminando duplicados y caracteres no deseados. 
+# Documentar el proceso y los resultados.
+# a.Limpiamos datos duplicados
+ventas_sin_duplicados = ventas.drop_duplicates(subset="id_venta")
+
+print(f"Tamaño ventas sin duplicados: {len(ventas_sin_duplicados)}\nTamaño ventas con duplicados: {len(ventas)}")
+
+# b.Limpiamos datos nulos
+ventas_sin_nulos = ventas_sin_duplicados.dropna()
+
+print(f"Ventas sin valores nulos: {len(ventas_sin_nulos)}\nVentas con valores nulos: {len(ventas_sin_duplicados)}")
+
+ventas_limpio = ventas_sin_nulos
+
+# CONSIGNA: Transformación de datos: Aplicar filtros y transformaciones para crear una tabla de ventas que muestre 
+# solo los productos con alto rendimiento.
+
+# a.Aplicamos formato en dataframe para trabajar con filtros
+ventas_limpio["producto"] = ventas_limpio["producto"].str.strip()
+ventas_limpio["categoria"] = ventas_limpio["categoria"].str.strip()
+
+# a.1.Aplico formato a ventas para pasarlo a numero flotante
+ventas_limpio["precio"] = ventas_limpio["precio"].str.strip()
+ventas_limpio["precio"] = ventas_limpio["precio"].str.replace("$","")
+ventas_limpio["precio"] = ventas_limpio["precio"].astype(float)
+
+# a.2.Aplico formato fecha a la fecha de la venta
+ventas_limpio["fecha_venta"] = pd.to_datetime(ventas_limpio["fecha_venta"], errors="coerce")
+
+# a.3.Creo una columna que realiza el total de la venta para su filtrado
+ventas_limpio["total_venta"] = ventas_limpio["precio"] * ventas_limpio["cantidad"]
+
+# b.1.Creo un dataframe que recopila el total de todas la ventas por producto
+ventas_total_producto = pd.DataFrame(ventas_limpio.groupby(["producto"])["total_venta"].sum().sort_values(ascending=False))
+
+# b.2.Se crea una tabla que recopila los productos de alto rendimiento (recaudacion mayor al percentil 75)
+productos_alto_rendimiento = ventas_total_producto[ventas_total_producto["total_venta"] > ventas_total_producto["total_venta"].quantile(0.75)]
+
+print(f"Productos que superaron el 75% de recaudacion:\n{productos_alto_rendimiento}\
+\nTotal de recaudacion de cada producto:\n{ventas_total_producto}")
+
+# CONSIGNA: Agregación: Resumir las ventas por categoría de producto y analizar los ingresos generados.
+# a.Generamos un dataframe que filtra la suma total de ventas por categoria
+ventas_total_categoria = pd.DataFrame(ventas_limpio.groupby(["categoria"])["total_venta"].sum().sort_values(ascending=False))
+print(f"Total de recaudacion por categoria:\n{ventas_total_categoria}")
 
 # CONSIGNA: Integración de datos: Combinar los sets de datos de ventas y marketing para obtener una visión más amplia de las tendencias.
