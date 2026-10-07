@@ -66,6 +66,13 @@ Se utilizan métodos como `merge`, `join` y `concat`.
 - [`ventas - Norte.csv`](./Clase%208/ventas%20-%20Norte.csv)
 - [`ventas - Sur.csv`](./Clase%208/ventas%20-%20Sur.csv)
 
+### [Clase 9](./Clase%209/)
+
+Se introducen medidas de estadística descriptiva para analizar las ventas mensuales.
+Se calculan la media, la mediana, la moda, el rango, la varianza y la desviación estándar utilizando NumPy y SciPy.
+
+- `Clase9.py`
+
 ### [Prácticas de auditoría](./Practicas%20Auditoria/)
 
 Prácticas de análisis y auditoría de datos de ventas utilizando Python y archivos CSV.
@@ -109,6 +116,7 @@ El repositorio refleja una incorporación progresiva de conceptos:
 6. Agregación y agrupamiento de información.
 7. Combinación de fuentes de datos con `merge`, `join` y `concat`.
 8. Aplicación de los contenidos en prácticas de auditoría y en el proyecto final.
+9. Aplicación de medidas de estadística descriptiva sobre datos de ventas.
 
 ## Estructura del repositorio
 
@@ -140,6 +148,8 @@ Cursada Analisis de Datos/
 │   ├── situacion_empleados.csv
 │   ├── ventas - Norte.csv
 │   ├── ventas - Sur.csv
+├── Clase 9/
+│   └── Clase9.py
 ├── Practicas Auditoria/
 │   ├── Practica.py
 │   └── datos_ventas_para_auditoria.csv
