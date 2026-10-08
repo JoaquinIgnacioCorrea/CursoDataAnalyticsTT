@@ -73,6 +73,13 @@ Se calculan la media, la mediana, la moda, el rango, la varianza y la desviació
 
 - `Clase9.py`
 
+### [Clase 10](./Clase%2010/)
+
+Se profundiza el análisis exploratorio y la visualización de datos utilizando los conjuntos `diamonds` y `titanic` de Seaborn.
+Se realizan resúmenes estadísticos y gráficos de distribución, conteo, barras y cajas para analizar precios, colores y tasas de supervivencia.
+
+- `Clase10.py`
+
 ### [Prácticas de auditoría](./Practicas%20Auditoria/)
 
 Prácticas de análisis y auditoría de datos de ventas utilizando Python y archivos CSV.
@@ -117,6 +124,7 @@ El repositorio refleja una incorporación progresiva de conceptos:
 7. Combinación de fuentes de datos con `merge`, `join` y `concat`.
 8. Aplicación de los contenidos en prácticas de auditoría y en el proyecto final.
 9. Aplicación de medidas de estadística descriptiva sobre datos de ventas.
+10. Análisis exploratorio y visualización de datos con Seaborn y Matplotlib.
 
 ## Estructura del repositorio
 
@@ -150,6 +158,8 @@ Cursada Analisis de Datos/
 │   ├── ventas - Sur.csv
 ├── Clase 9/
 │   └── Clase9.py
+├── Clase 10/
+│   └── Clase10.py
 ├── Practicas Auditoria/
 │   ├── Practica.py
 │   └── datos_ventas_para_auditoria.csv

@@ -1,7 +1,7 @@
 import numpy as np
 from scipy import stats
 
-# SECCIO 1
+# SECCION 1
 # CONSIGA: Calcular la media de las ventas.
 
 ventas = {
