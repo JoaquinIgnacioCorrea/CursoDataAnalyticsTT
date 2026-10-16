@@ -182,3 +182,14 @@ marketing_limpio["fecha_fin"] = pd.to_datetime(marketing_limpio["fecha_fin"], er
 ventas_marketing_integradas = pd.merge(ventas_totales_por_producto,marketing_limpio, on="producto", how="outer")
 
 print(f"Combinacion de total de ventas y marketing por producto:\n{ventas_marketing_integradas}")
+
+# Anexos
+# Archivos ventas
+# Archivos clientes
+# Archivo marketing
+
+# Correcciones Trabajo Final Data Analitycs
+# 1. Hacer prints que indiquen cada paso y que hace
+# 2. Dejar una conclusión final respecto al trabajo previo con las fuentes de datos 
+# 3. Incluir anexos con los archivos que se usaron(link del archivo en la carpeta de drive)
+# 4. Breve descripción de los archivos que se mencionan en anexos

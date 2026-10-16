@@ -80,6 +80,13 @@ Se realizan resúmenes estadísticos y gráficos de distribución, conteo, barra
 
 - `Clase10.py`
 
+### [Clase 11](./Clase%2011/)
+
+Se profundiza el análisis de correlación y la visualización de datos utilizando los conjuntos `diamonds` y `penguins` de Seaborn.
+Se calculan correlaciones, se construyen matrices de correlación y se analizan distribuciones por especie, sexo e isla mediante gráficos.
+
+- `Clase11.py`
+
 ### [Prácticas de auditoría](./Practicas%20Auditoria/)
 
 Prácticas de análisis y auditoría de datos de ventas utilizando Python y archivos CSV.
@@ -125,6 +132,7 @@ El repositorio refleja una incorporación progresiva de conceptos:
 8. Aplicación de los contenidos en prácticas de auditoría y en el proyecto final.
 9. Aplicación de medidas de estadística descriptiva sobre datos de ventas.
 10. Análisis exploratorio y visualización de datos con Seaborn y Matplotlib.
+11. Análisis de correlaciones y distribuciones con Seaborn.
 
 ## Estructura del repositorio
 
@@ -160,6 +168,8 @@ Cursada Analisis de Datos/
 │   └── Clase9.py
 ├── Clase 10/
 │   └── Clase10.py
+├── Clase 11/
+│   └── Clase11.py
 ├── Practicas Auditoria/
 │   ├── Practica.py
 │   └── datos_ventas_para_auditoria.csv

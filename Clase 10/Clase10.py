@@ -66,4 +66,4 @@ plt.show()
 # utilizando un diagrama de caja (box plot).
 
 sns.boxplot(data=titanic, x="alive", y="age")
-plt.show()
+plt.show()  
