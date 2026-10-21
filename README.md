@@ -87,6 +87,20 @@ Se calculan correlaciones, se construyen matrices de correlación y se analizan 
 
 - `Clase11.py`
 
+### [Clase 12](./Clase%2012/)
+
+Se integran los contenidos de exploración, limpieza, combinación, agrupamiento y visualización de datos en dos prácticas aplicadas.
+La primera analiza ventas, clientes y productos para calcular el gasto total por cliente y las ventas por categoría.
+La segunda combina información de talleres, participantes y resultados para analizar la asistencia y el puntaje promedio obtenido en cada taller.
+
+- `Clase12.py`
+- [`clientes.csv`](./Clase%2012/clientes.csv)
+- [`productos.csv`](./Clase%2012/productos.csv)
+- [`ventas.csv`](./Clase%2012/ventas.csv)
+- [`participantes.csv`](./Clase%2012/participantes.csv)
+- [`resultados_taller.csv`](./Clase%2012/resultados_taller.csv)
+- [`talleres.csv`](./Clase%2012/talleres.csv)
+
 ### [Prácticas de auditoría](./Practicas%20Auditoria/)
 
 Prácticas de análisis y auditoría de datos de ventas utilizando Python y archivos CSV.
@@ -133,6 +147,7 @@ El repositorio refleja una incorporación progresiva de conceptos:
 9. Aplicación de medidas de estadística descriptiva sobre datos de ventas.
 10. Análisis exploratorio y visualización de datos con Seaborn y Matplotlib.
 11. Análisis de correlaciones y distribuciones con Seaborn.
+12. Integración de exploración, limpieza, combinación, agrupamiento y visualización en casos prácticos.
 
 ## Estructura del repositorio
 
@@ -170,6 +185,14 @@ Cursada Analisis de Datos/
 │   └── Clase10.py
 ├── Clase 11/
 │   └── Clase11.py
+├── Clase 12/
+│   ├── Clase12.py
+│   ├── clientes.csv
+│   ├── participantes.csv
+│   ├── productos.csv
+│   ├── resultados_taller.csv
+│   ├── talleres.csv
+│   └── ventas.csv
 ├── Practicas Auditoria/
 │   ├── Practica.py
 │   └── datos_ventas_para_auditoria.csv
