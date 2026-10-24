@@ -101,6 +101,18 @@ La segunda combina información de talleres, participantes y resultados para ana
 - [`resultados_taller.csv`](./Clase%2012/resultados_taller.csv)
 - [`talleres.csv`](./Clase%2012/talleres.csv)
 
+### [Clase 13](./Clase%2013/)
+
+Se introducen gráficos de líneas y barras con Matplotlib para visualizar la evolución de las ventas mensuales y comparar el rendimiento de distintos productos.
+
+- `Clase13.py`
+
+### [Clase 14](./Clase%2014/)
+
+Se profundiza la visualización de datos con Seaborn mediante boxplots, violin plots y gráficos de barras para analizar distribuciones, precios y categorías.
+
+- `Clase14.py`
+
 ### [Prácticas de auditoría](./Practicas%20Auditoria/)
 
 Prácticas de análisis y auditoría de datos de ventas utilizando Python y archivos CSV.
@@ -148,6 +160,8 @@ El repositorio refleja una incorporación progresiva de conceptos:
 10. Análisis exploratorio y visualización de datos con Seaborn y Matplotlib.
 11. Análisis de correlaciones y distribuciones con Seaborn.
 12. Integración de exploración, limpieza, combinación, agrupamiento y visualización en casos prácticos.
+13. Visualización de la evolución de ventas y comparación de productos con Matplotlib.
+14. Análisis de distribuciones y precios por categoría con Seaborn.
 
 ## Estructura del repositorio
 
@@ -193,6 +207,10 @@ Cursada Analisis de Datos/
 │   ├── resultados_taller.csv
 │   ├── talleres.csv
 │   └── ventas.csv
+├── Clase 13/
+│   └── Clase13.py
+├── Clase 14/
+│   └── Clase14.py
 ├── Practicas Auditoria/
 │   ├── Practica.py
 │   └── datos_ventas_para_auditoria.csv

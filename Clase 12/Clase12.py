@@ -1,8 +1,6 @@
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-import seaborn.objects as so
 
 # SECCION 1
 # CONSGINA: Cargá los conjuntos de datos que contienen la información sobre las ventas, 
@@ -160,7 +158,7 @@ for p in Grafico_Asistencia.patches:
         )
 
 # Establecemos ultimos detalles que se dibujaran en la ventana a mostrar del grafico
-plt.title('Asistencias en Tlleres')
+plt.title('Asistencias en Talleres')
 plt.xlabel('Cantidad de Participantes')
 plt.ylabel('')
 plt.tight_layout()
