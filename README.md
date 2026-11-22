@@ -113,6 +113,15 @@ Se profundiza la visualización de datos con Seaborn mediante boxplots, violin p
 
 - `Clase14.py`
 
+### [Clase 15](./Clase%2015/)
+
+Se incorporan visualizaciones interactivas con Plotly e `ipywidgets` para analizar ventas por región y actividad de redes sociales.
+Se utilizan gráficos de líneas y barras con filtros por año y plataforma.
+
+- `Clase15.py`
+- [`ventas_por_region.csv`](./Clase%2015/ventas_por_region.csv)
+- [`rrss.csv`](./Clase%2015/rrss.csv)
+
 ### [Prácticas de auditoría](./Practicas%20Auditoria/)
 
 Prácticas de análisis y auditoría de datos de ventas utilizando Python y archivos CSV.
@@ -142,6 +151,13 @@ python -m pip install pandas numpy seaborn openpyxl
 python "Proyecto Final/Proyecto Final.py"
 ```
 
+Para ejecutar las visualizaciones interactivas de la Clase 15:
+
+```powershell
+python -m pip install pandas plotly ipywidgets dash
+python "Clase 15/Clase15.py"
+```
+
 El comando debe ejecutarse desde la carpeta raíz del repositorio, porque el script utiliza rutas relativas para acceder a los archivos de `Proyecto Final/Fuentes/`.
 
 ## Progresión de contenidos
@@ -162,6 +178,7 @@ El repositorio refleja una incorporación progresiva de conceptos:
 12. Integración de exploración, limpieza, combinación, agrupamiento y visualización en casos prácticos.
 13. Visualización de la evolución de ventas y comparación de productos con Matplotlib.
 14. Análisis de distribuciones y precios por categoría con Seaborn.
+15. Creación de gráficos interactivos con Plotly e `ipywidgets` para analizar ventas y redes sociales.
 
 ## Estructura del repositorio
 
@@ -211,6 +228,10 @@ Cursada Analisis de Datos/
 │   └── Clase13.py
 ├── Clase 14/
 │   └── Clase14.py
+├── Clase 15/
+│   ├── Clase15.py
+│   ├── rrss.csv
+│   └── ventas_por_region.csv
 ├── Practicas Auditoria/
 │   ├── Practica.py
 │   └── datos_ventas_para_auditoria.csv

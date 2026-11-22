@@ -1,0 +1,1001 @@
+fecha,producto,region,ventas
+2025-03-24,Auriculares,Este,$9984.02
+2024-11-04,Smart TV,Este,$8723.07
+2025-05-14,Auriculares,Oeste,$11326.45
+2025-04-21,Smart TV,Centro,$7404.36
+2025-05-18,Smartphone,Oeste,$9358.53
+2025-04-19,Auriculares,Sur,$9533.77
+2025-02-27,Consola de videojuegos,Centro,$8833.51
+2025-03-01,Auriculares,Oeste,$8944.92
+2025-01-12,Notebook,Oeste,$6673.75
+2025-06-04,Smart TV,Centro,$10633.43
+2024-09-05,Notebook,Este,$10954.60
+2024-07-18,Smart TV,norte,$11016.61
+2024-11-07,Consola de videojuegos,Oeste,$6771.65
+2024-06-20,Auriculares,Este,$5008.40
+2024-06-29,Notebook,Este,$9833.73
+2024-06-27,Notebook,norte,$12011.62
+2024-07-27,Smartphone,Centro,$9807.85
+2024-11-07,Smartphone,norte,$12017.37
+2024-07-15,Smart TV,Este,$4965.12
+2025-01-16,Consola de videojuegos,Sur,$12007.12
+2024-07-20,Smart TV,Este,$5612.12
+2024-10-25,Auriculares,Este,$9401.95
+2024-06-20,Auriculares,norte,$11143.89
+2024-10-01,Auriculares,norte,$10106.71
+2024-06-24,Smart TV,Oeste,$8379.67
+2024-11-25,Smart TV,Oeste,$6656.42
+2025-04-18,Smartphone,norte,$10754.92
+2024-12-01,Smart TV,Sur,$8815.56
+2025-01-01,Smartphone,norte,$11597.39
+2024-06-27,Smart TV,Sur,$5751.92
+2025-04-20,Notebook,Centro,$9557.34
+2024-08-03,Auriculares,Centro,$7110.54
+2024-11-16,Smartphone,Oeste,$11945.54
+2025-01-29,Auriculares,Oeste,$10231.55
+2024-07-04,Smart TV,Oeste,$7258.85
+2024-07-20,Notebook,Oeste,$11734.47
+2025-03-28,Smartphone,Oeste,$4839.67
+2024-07-16,Auriculares,Este,$12422.67
+2024-07-14,Smart TV,Este,$8010.96
+2024-11-05,Consola de videojuegos,Oeste,$10138.76
+2025-05-04,Notebook,Este,$8230.19
+2024-09-04,Smartphone,Este,$11661.29
+2024-11-16,Smart TV,Oeste,$9936.46
+2024-12-18,Smartphone,norte,$11020.66
+2024-12-04,Notebook,Sur,$12531.59
+2025-01-08,Notebook,Sur,$4568.52
+2025-02-04,Notebook,Oeste,$8579.91
+2024-11-18,Smartphone,Centro,$12162.86
+2024-11-21,Notebook,Sur,$5880.55
+2025-02-28,Notebook,norte,$9225.34
+2024-11-09,Smartphone,Oeste,$5847.02
+2024-11-27,Smartphone,Centro,$9298.15
+2025-01-28,Auriculares,norte,$6119.86
+2024-11-15,Notebook,Oeste,$11519.23
+2024-12-11,Smartphone,norte,$11221.13
+2025-04-13,Smartphone,Este,$6421.19
+2024-11-24,Smartphone,Sur,$5106.58
+2024-11-14,Auriculares,Oeste,$10122.07
+2025-06-05,Smartphone,Este,$10722.60
+2024-09-09,Notebook,Oeste,$11461.92
+2024-07-07,Notebook,Centro,$11681.71
+2024-10-31,Smart TV,Oeste,$12263.05
+2025-02-28,Smartphone,Oeste,$8761.23
+2024-06-16,Smartphone,norte,$8474.63
+2024-11-13,Auriculares,Centro,$5944.59
+2025-05-10,Notebook,Este,$4639.14
+2025-05-30,Notebook,norte,$11774.25
+2025-01-03,Notebook,Centro,$10376.84
+2025-05-10,Notebook,norte,$11838.50
+2025-01-07,Auriculares,norte,$9913.51
+2024-10-02,Notebook,Centro,$6956.49
+2025-02-11,Smart TV,Centro,$6868.56
+2025-03-19,Notebook,Sur,$9341.13
+2025-02-13,Consola de videojuegos,Centro,$11349.89
+2024-12-09,Auriculares,Sur,$6861.72
+2025-05-24,Smartphone,Oeste,$6541.61
+2025-05-31,Smartphone,norte,$10797.20
+2024-08-30,Consola de videojuegos,Sur,$12299.74
+2025-02-25,Consola de videojuegos,Centro,$9130.89
+2024-10-31,Consola de videojuegos,norte,$9247.32
+2024-12-26,Consola de videojuegos,Sur,$12450.87
+2024-08-08,Notebook,Sur,$10892.53
+2025-01-22,Auriculares,Oeste,$10563.25
+2025-02-21,Notebook,Centro,$5797.88
+2024-10-15,Smartphone,norte,$5088.76
+2024-09-01,Smart TV,Oeste,$4639.95
+2025-04-14,Notebook,Oeste,$11158.74
+2024-09-11,Consola de videojuegos,Este,$7602.23
+2024-12-01,Auriculares,Sur,$7959.89
+2024-08-18,Consola de videojuegos,Centro,$6414.26
+2025-04-14,Consola de videojuegos,norte,$7412.21
+2025-05-07,Notebook,Sur,$12310.96
+2024-06-10,Notebook,Este,$11627.34
+2024-08-27,Consola de videojuegos,Oeste,$12493.44
+2024-07-07,Smart TV,norte,$9070.98
+2024-07-30,Auriculares,Centro,$6080.41
+2025-03-22,Notebook,Este,$7119.31
+2024-06-26,Notebook,Oeste,$11494.76
+2024-07-10,Consola de videojuegos,Oeste,$4808.61
+2024-09-15,Smart TV,Sur,$4745.56
+2025-03-12,Smart TV,norte,$9266.13
+2024-09-13,Smartphone,Sur,$9558.96
+2025-02-12,Consola de videojuegos,Sur,$9173.52
+2024-09-22,Auriculares,Sur,$9473.28
+2024-08-05,Notebook,Oeste,$8449.58
+2025-01-26,Notebook,Este,$9557.35
+2024-11-14,Smart TV,Oeste,$5293.48
+2025-04-09,Notebook,Oeste,$5576.85
+2025-02-19,Notebook,norte,$11877.10
+2024-11-11,Smart TV,Este,$4704.57
+2024-11-24,Auriculares,Oeste,$7708.41
+2024-10-22,Smart TV,Oeste,$7814.88
+2024-07-08,Smartphone,Centro,$5789.84
+2024-08-08,Smartphone,Sur,$6873.21
+2024-06-15,Consola de videojuegos,Este,$8960.91
+2025-01-25,Smartphone,Oeste,$11785.62
+2025-04-30,Smartphone,Centro,$6894.11
+2024-11-23,Auriculares,Sur,$11142.93
+2025-01-04,Smart TV,norte,$9050.12
+2025-01-14,Consola de videojuegos,Sur,$7040.65
+2024-08-08,Auriculares,Oeste,$11100.37
+2024-07-02,Smart TV,Centro,$10830.99
+2024-10-22,Smartphone,Sur,$4650.25
+2024-09-28,Consola de videojuegos,norte,$10668.85
+2024-08-31,Notebook,norte,$10701.49
+2025-04-02,Notebook,norte,$4909.34
+2024-10-22,Notebook,Oeste,$6144.99
+2024-10-16,Consola de videojuegos,Sur,$5957.76
+2024-12-28,Consola de videojuegos,Sur,$7108.94
+2024-06-12,Consola de videojuegos,norte,$8755.13
+2024-11-21,Smartphone,Centro,$6310.68
+2024-12-29,Auriculares,Este,$11016.90
+2025-05-21,Smart TV,Este,$4598.86
+2025-02-25,Smartphone,Oeste,$4778.82
+2024-08-15,Auriculares,Este,$8877.36
+2024-09-14,Smartphone,Sur,$11831.29
+2025-05-21,Auriculares,Sur,$6180.63
+2025-02-14,Notebook,Sur,$5310.64
+2025-03-13,Smartphone,norte,$4901.67
+2025-04-15,Auriculares,Centro,$6657.01
+2024-11-20,Smart TV,Este,$12078.72
+2025-01-21,Consola de videojuegos,norte,$8678.23
+2024-07-14,Consola de videojuegos,Sur,$8985.65
+2024-12-15,Notebook,norte,$7429.11
+2024-10-06,Smart TV,Sur,$6879.85
+2025-02-23,Smartphone,Oeste,$7766.47
+2025-02-19,Smart TV,norte,$5506.79
+2024-07-21,Consola de videojuegos,Sur,$9819.89
+2025-03-22,Smartphone,Este,$8394.92
+2024-09-21,Smart TV,Sur,$5050.09
+2025-06-05,Smartphone,Centro,$10562.84
+2024-06-25,Notebook,norte,$11908.33
+2024-11-07,Smart TV,Este,$10499.93
+2025-05-14,Consola de videojuegos,Este,$11185.18
+2025-01-13,Smart TV,norte,$8619.54
+2024-11-18,Consola de videojuegos,Oeste,$10423.60
+2025-06-04,Smart TV,norte,$6785.03
+2025-01-03,Smartphone,Sur,$5409.89
+2025-03-14,Consola de videojuegos,norte,$7979.89
+2024-10-13,Smartphone,Sur,$11559.88
+2024-08-13,Smartphone,Centro,$8209.47
+2025-03-09,Smartphone,Sur,$8066.99
+2025-04-03,Smartphone,Oeste,$10784.03
+2025-03-28,Auriculares,Centro,$7205.21
+2024-07-02,Consola de videojuegos,Oeste,$6041.62
+2024-12-23,Smartphone,Centro,$9099.98
+2024-06-23,Smart TV,Este,$10046.20
+2024-10-22,Notebook,Este,$5888.06
+2024-11-05,Smart TV,Centro,$6962.58
+2024-12-25,Auriculares,Este,$12404.01
+2024-08-05,Consola de videojuegos,norte,$6713.56
+2025-02-05,Consola de videojuegos,Centro,$6262.53
+2025-02-18,Auriculares,Sur,$9289.06
+2024-09-04,Auriculares,Este,$6836.31
+2024-12-09,Consola de videojuegos,Sur,$9060.11
+2024-12-15,Smartphone,Sur,$10393.18
+2024-10-11,Smart TV,Sur,$6962.41
+2025-04-23,Notebook,Centro,$8647.36
+2024-08-08,Auriculares,Oeste,$8593.15
+2024-10-07,Consola de videojuegos,Este,$7643.65
+2025-04-22,Notebook,Oeste,$10207.67
+2025-04-11,Auriculares,Este,$11685.52
+2024-07-17,Consola de videojuegos,Este,$9682.00
+2024-10-12,Smartphone,Sur,$9192.50
+2025-03-04,Notebook,Oeste,$5582.07
+2024-12-07,Notebook,Oeste,$11696.69
+2025-01-03,Auriculares,Este,$9957.44
+2025-02-02,Auriculares,Centro,$8575.50
+2024-07-11,Notebook,Oeste,$5723.14
+2025-02-25,Notebook,Centro,$10146.05
+2024-07-30,Smartphone,Oeste,$6909.28
+2025-04-19,Smart TV,Este,$11736.45
+2024-08-28,Notebook,Sur,$7204.45
+2024-12-19,Notebook,Centro,$4894.73
+2024-08-31,Consola de videojuegos,Sur,$5773.44
+2024-11-19,Consola de videojuegos,Sur,$9909.74
+2025-05-11,Notebook,norte,$7582.63
+2025-04-05,Smartphone,norte,$6540.50
+2024-07-28,Auriculares,Sur,$9646.17
+2024-07-18,Notebook,Sur,$5952.24
+2024-07-31,Smart TV,norte,$12006.00
+2025-01-24,Smartphone,Sur,$8788.76
+2025-01-20,Smartphone,Este,$10903.65
+2024-08-18,Consola de videojuegos,Centro,$11550.73
+2024-12-18,Notebook,norte,$11010.49
+2024-06-19,Auriculares,Sur,$7686.35
+2025-03-21,Consola de videojuegos,Oeste,$6327.40
+2024-10-23,Smartphone,Sur,$5564.96
+2025-01-07,Smart TV,Oeste,$5032.24
+2024-10-09,Smartphone,Sur,$11072.43
+2025-03-30,Auriculares,norte,$8865.38
+2025-06-03,Auriculares,Oeste,$8902.75
+2024-08-18,Smartphone,Sur,$10338.67
+2024-08-16,Smartphone,Oeste,$10094.10
+2025-02-14,Consola de videojuegos,Centro,$12276.18
+2025-01-19,Consola de videojuegos,Centro,$7252.73
+2025-03-15,Smartphone,Oeste,$7027.81
+2024-09-29,Notebook,Sur,$11932.18
+2025-01-14,Notebook,norte,$9972.80
+2024-10-02,Notebook,Centro,$8209.22
+2024-07-09,Smartphone,norte,$7918.07
+2025-01-01,Consola de videojuegos,Este,$7547.37
+2024-08-13,Notebook,norte,$8777.56
+2024-10-22,Notebook,Centro,$8759.08
+2025-05-21,Smartphone,Centro,$4772.20
+2025-04-06,Auriculares,Oeste,$12355.32
+2025-01-08,Smartphone,Sur,$8486.02
+2025-01-15,Smartphone,Este,$6305.53
+2025-04-15,Auriculares,Oeste,$11793.55
+2024-07-26,Smart TV,Oeste,$5551.20
+2025-01-28,Smart TV,norte,$10057.55
+2024-10-10,Notebook,Centro,$5236.96
+2024-12-14,Consola de videojuegos,Este,$11828.84
+2024-08-25,Smartphone,Oeste,$6890.69
+2024-09-26,Consola de videojuegos,Oeste,$6774.01
+2024-08-24,Auriculares,norte,$11431.45
+2025-03-14,Smartphone,Oeste,$12521.65
+2025-03-20,Consola de videojuegos,norte,$4734.32
+2024-11-28,Notebook,norte,$6664.25
+2024-07-23,Consola de videojuegos,Centro,$7168.44
+2024-06-25,Consola de videojuegos,norte,$10328.77
+2025-05-04,Notebook,norte,$6941.37
+2025-05-17,Notebook,Oeste,$5546.62
+2024-06-27,Notebook,Sur,$8089.24
+2024-12-21,Consola de videojuegos,Oeste,$10998.41
+2025-02-04,Smart TV,norte,$8469.30
+2025-03-01,Consola de videojuegos,norte,$4964.54
+2024-11-22,Smart TV,Sur,$10270.38
+2024-08-15,Notebook,Este,$9076.17
+2024-09-29,Smart TV,Este,$7303.88
+2024-09-15,Smart TV,Oeste,$12269.84
+2025-05-13,Smart TV,Sur,$9925.55
+2024-09-27,Smartphone,Centro,$7246.73
+2025-02-18,Auriculares,Sur,$10912.52
+2025-01-23,Consola de videojuegos,Sur,$8479.05
+2024-06-26,Smart TV,Oeste,$8286.13
+2024-12-05,Notebook,norte,$10864.89
+2025-05-23,Consola de videojuegos,Centro,$6737.40
+2025-03-22,Consola de videojuegos,Sur,$5781.69
+2025-03-16,Auriculares,norte,$11902.12
+2024-09-19,Smartphone,norte,$6723.44
+2024-06-30,Auriculares,norte,$6051.66
+2025-04-14,Smartphone,Este,$4691.24
+2025-01-29,Consola de videojuegos,Oeste,$9108.97
+2025-05-07,Consola de videojuegos,norte,$12393.69
+2025-05-20,Consola de videojuegos,norte,$7255.25
+2025-04-06,Auriculares,Centro,$8643.87
+2025-03-04,Smart TV,norte,$5452.26
+2024-09-30,Auriculares,Centro,$4917.55
+2024-10-03,Notebook,Centro,$5590.52
+2025-05-23,Smartphone,Centro,$9022.05
+2024-08-07,Notebook,Este,$7563.97
+2024-08-24,Consola de videojuegos,norte,$4896.60
+2024-09-21,Notebook,norte,$11353.73
+2024-06-29,Smartphone,Sur,$5013.05
+2024-11-07,Smartphone,Sur,$6356.02
+2024-08-17,Consola de videojuegos,Centro,$11452.48
+2025-03-09,Notebook,Este,$4967.19
+2024-09-02,Notebook,Centro,$11286.38
+2025-03-05,Notebook,Centro,$9472.59
+2025-04-23,Notebook,norte,$5592.45
+2024-08-25,Smart TV,Este,$6346.96
+2024-07-20,Notebook,Este,$10220.81
+2025-04-15,Smart TV,Sur,$11445.67
+2025-04-29,Notebook,Este,$7064.81
+2024-09-03,Smartphone,Oeste,$8047.35
+2025-04-02,Auriculares,Este,$10647.26
+2025-02-21,Smart TV,Este,$5766.05
+2024-11-19,Smart TV,Este,$9539.03
+2024-08-16,Auriculares,Oeste,$12265.53
+2025-06-01,Smartphone,norte,$11064.10
+2025-01-11,Smartphone,Este,$4743.54
+2024-08-18,Smart TV,Centro,$10660.17
+2024-11-01,Smartphone,Este,$12218.59
+2024-10-19,Notebook,norte,$12180.31
+2024-07-06,Smartphone,norte,$9915.17
+2025-04-01,Smartphone,norte,$6487.16
+2024-10-14,Notebook,Este,$9543.76
+2025-05-09,Smart TV,Oeste,$8865.78
+2024-12-30,Smartphone,Oeste,$8750.37
+2024-12-29,Smartphone,Oeste,$9360.66
+2025-04-18,Smartphone,Sur,$5622.87
+2025-04-14,Notebook,Sur,$9996.70
+2025-04-16,Notebook,Oeste,$7769.41
+2024-12-18,Smart TV,Centro,$10132.55
+2024-10-04,Consola de videojuegos,Oeste,$9949.11
+2025-01-13,Smartphone,norte,$10230.77
+2024-11-16,Auriculares,Este,$4760.34
+2024-08-06,Smart TV,Sur,$9783.06
+2024-11-19,Smart TV,Este,$11012.48
+2025-02-22,Notebook,Centro,$6449.89
+2024-09-20,Auriculares,Sur,$5749.31
+2025-01-08,Auriculares,norte,$7335.30
+2024-08-24,Smartphone,Sur,$12434.47
+2025-05-30,Smartphone,Sur,$10991.99
+2025-05-21,Smart TV,norte,$4723.15
+2024-12-20,Auriculares,Oeste,$5140.87
+2024-09-02,Auriculares,Sur,$8667.56
+2025-03-22,Consola de videojuegos,Este,$6317.90
+2025-04-22,Consola de videojuegos,Centro,$6316.52
+2025-02-21,Notebook,Este,$8823.94
+2025-03-03,Notebook,Centro,$9275.79
+2024-08-06,Notebook,Centro,$7230.13
+2025-01-16,Smart TV,Sur,$11552.17
+2024-10-19,Auriculares,Este,$9815.91
+2025-04-11,Smartphone,norte,$7920.27
+2024-09-11,Auriculares,Este,$5364.43
+2025-04-04,Notebook,Oeste,$6661.00
+2024-10-19,Consola de videojuegos,Centro,$8189.30
+2024-08-20,Notebook,Sur,$6188.68
+2025-03-11,Consola de videojuegos,Oeste,$9951.55
+2024-11-19,Notebook,Centro,$8208.39
+2025-05-06,Consola de videojuegos,Sur,$4769.92
+2025-04-06,Notebook,Oeste,$6615.21
+2025-05-15,Smart TV,Sur,$9456.68
+2025-03-03,Auriculares,norte,$10185.77
+2024-09-25,Consola de videojuegos,Sur,$8047.27
+2024-09-19,Auriculares,Sur,$6809.01
+2025-04-29,Smart TV,norte,$10082.01
+2025-03-15,Notebook,norte,$6424.78
+2024-11-28,Consola de videojuegos,norte,$9209.37
+2025-05-11,Auriculares,Centro,$8521.42
+2025-03-04,Smart TV,norte,$4617.47
+2024-06-13,Smartphone,Sur,$9325.87
+2025-02-24,Smart TV,Centro,$4721.97
+2024-10-19,Auriculares,norte,$11477.49
+2024-07-20,Auriculares,norte,$12144.39
+2025-05-16,Smartphone,Sur,$11818.52
+2024-09-24,Smart TV,norte,$10393.08
+2025-05-11,Smartphone,Oeste,$10555.72
+2024-07-02,Consola de videojuegos,Centro,$4690.59
+2025-03-04,Auriculares,norte,$5147.72
+2024-11-17,Consola de videojuegos,norte,$8918.44
+2025-03-19,Auriculares,Centro,$11486.68
+2024-09-08,Smartphone,Centro,$5485.02
+2024-12-20,Smartphone,norte,$6460.75
+2024-07-04,Consola de videojuegos,Centro,$12456.87
+2024-07-29,Consola de videojuegos,Este,$5619.44
+2024-09-25,Notebook,Sur,$8518.52
+2024-06-11,Auriculares,Sur,$10691.40
+2024-10-03,Auriculares,norte,$9883.32
+2024-08-25,Auriculares,Centro,$6959.84
+2025-05-01,Consola de videojuegos,Centro,$5702.23
+2024-06-16,Smart TV,norte,$10614.17
+2024-08-17,Smart TV,Oeste,$10866.19
+2025-02-21,Consola de videojuegos,Este,$9792.10
+2024-10-11,Smart TV,Este,$7230.37
+2025-01-07,Smart TV,Este,$5460.10
+2024-10-24,Auriculares,norte,$10521.80
+2025-03-25,Consola de videojuegos,Este,$12218.31
+2025-02-15,Smartphone,Oeste,$10764.94
+2025-03-15,Notebook,Este,$10164.05
+2024-07-19,Consola de videojuegos,norte,$11680.29
+2024-12-26,Smart TV,Este,$12481.16
+2025-02-15,Smartphone,Este,$12067.41
+2025-02-27,Notebook,Centro,$6685.97
+2025-04-04,Smartphone,Centro,$6224.81
+2025-03-05,Consola de videojuegos,Oeste,$8215.49
+2025-04-10,Auriculares,norte,$9713.16
+2024-11-26,Smart TV,Este,$9870.31
+2024-09-30,Auriculares,Oeste,$9291.35
+2024-07-07,Smart TV,Este,$6150.23
+2025-03-26,Smartphone,Sur,$10517.30
+2024-08-23,Notebook,Centro,$7354.54
+2024-07-23,Notebook,Sur,$10397.88
+2024-06-11,Smart TV,Centro,$12353.07
+2024-09-01,Notebook,Este,$6406.03
+2025-05-03,Notebook,Centro,$10154.73
+2024-10-07,Smartphone,norte,$11010.90
+2024-12-13,Smart TV,Este,$7945.15
+2024-11-03,Notebook,Oeste,$9995.92
+2025-04-16,Smart TV,Sur,$6752.29
+2025-05-29,Smart TV,Oeste,$10174.13
+2024-10-14,Auriculares,Este,$5321.65
+2025-03-21,Auriculares,Centro,$8224.12
+2025-04-09,Smartphone,Este,$10445.23
+2024-08-29,Notebook,Oeste,$5733.26
+2024-12-24,Smart TV,Este,$9799.73
+2025-02-14,Smart TV,Centro,$12137.73
+2025-03-19,Consola de videojuegos,Sur,$6847.75
+2025-06-06,Smartphone,Este,$6100.84
+2024-07-01,Auriculares,Sur,$11159.01
+2024-06-28,Smart TV,Oeste,$8375.64
+2024-11-11,Consola de videojuegos,Centro,$11741.81
+2024-08-07,Auriculares,Este,$9179.45
+2025-01-22,Consola de videojuegos,norte,$11664.48
+2025-03-15,Notebook,Sur,$8383.09
+2024-07-01,Auriculares,Sur,$4931.26
+2025-03-09,Auriculares,Centro,$9568.15
+2024-11-05,Notebook,Centro,$5712.30
+2025-01-15,Smartphone,Sur,$7944.62
+2024-09-16,Auriculares,Sur,$11147.64
+2024-09-25,Auriculares,Sur,$5079.95
+2024-09-06,Notebook,Sur,$5554.79
+2025-03-02,Auriculares,Este,$10898.39
+2025-01-26,Consola de videojuegos,Centro,$10505.78
+2024-09-07,Smart TV,Centro,$6296.06
+2024-09-21,Notebook,norte,$11654.63
+2024-07-15,Notebook,Oeste,$5159.75
+2025-01-30,Smart TV,Centro,$6055.44
+2025-02-20,Notebook,Centro,$5920.90
+2025-01-01,Auriculares,Centro,$6992.67
+2025-01-12,Smartphone,Oeste,$11556.08
+2025-02-02,Consola de videojuegos,Centro,$5673.47
+2024-08-30,Consola de videojuegos,Centro,$6264.11
+2024-07-02,Notebook,Centro,$6853.69
+2024-06-19,Consola de videojuegos,norte,$6544.07
+2024-11-15,Smart TV,norte,$10920.11
+2024-10-16,Notebook,Centro,$9611.83
+2024-09-16,Smartphone,Este,$8377.33
+2024-06-16,Auriculares,Oeste,$7588.36
+2024-11-01,Consola de videojuegos,Este,$6699.72
+2024-10-19,Smartphone,Este,$7728.27
+2024-08-19,Auriculares,norte,$6761.66
+2025-05-24,Auriculares,norte,$9866.30
+2025-05-14,Smartphone,Sur,$5001.27
+2025-05-04,Smart TV,Este,$11597.68
+2025-06-04,Auriculares,Centro,$6825.51
+2024-10-31,Smart TV,norte,$8102.54
+2024-06-15,Smart TV,Oeste,$5648.70
+2024-09-30,Auriculares,norte,$8558.71
+2024-08-01,Consola de videojuegos,Este,$11628.94
+2024-10-04,Smartphone,Centro,$5064.37
+2025-03-09,Smart TV,Sur,$6075.38
+2024-07-06,Smart TV,Oeste,$10844.41
+2025-03-12,Smartphone,Este,$10304.92
+2024-12-27,Consola de videojuegos,Oeste,$11614.86
+2024-09-26,Smartphone,Este,$5712.67
+2025-04-06,Auriculares,norte,$11043.12
+2025-01-11,Consola de videojuegos,Sur,$4887.10
+2024-07-18,Smartphone,Oeste,$11589.88
+2025-03-03,Consola de videojuegos,Sur,$11132.19
+2024-10-26,Notebook,Centro,$8764.78
+2025-05-02,Auriculares,Sur,$8545.04
+2025-05-06,Smart TV,Centro,$5053.20
+2025-03-12,Notebook,Oeste,$9457.16
+2025-03-03,Consola de videojuegos,Sur,$9348.50
+2024-08-22,Smartphone,Oeste,$6852.17
+2024-06-23,Smartphone,Oeste,$6135.54
+2024-06-14,Smart TV,Sur,$7898.15
+2024-09-27,Smartphone,Sur,$6512.14
+2024-06-18,Notebook,norte,$6283.71
+2024-08-27,Smart TV,Sur,$8231.21
+2025-04-01,Notebook,norte,$10580.99
+2025-02-28,Smartphone,norte,$5200.35
+2024-12-19,Smartphone,Este,$9754.24
+2024-08-07,Notebook,norte,$7315.44
+2025-01-18,Notebook,Este,$6789.06
+2025-04-18,Consola de videojuegos,Sur,$5608.65
+2025-03-24,Auriculares,Este,$11218.29
+2025-05-12,Smart TV,Oeste,$10079.22
+2025-04-27,Consola de videojuegos,Oeste,$11192.11
+2024-09-02,Consola de videojuegos,norte,$6051.85
+2024-10-04,Smart TV,Este,$8651.90
+2024-10-28,Notebook,norte,$12033.93
+2024-09-17,Auriculares,Sur,$4986.75
+2024-07-03,Notebook,Centro,$8360.12
+2024-07-18,Notebook,Centro,$9704.75
+2025-06-04,Notebook,Oeste,$10784.59
+2024-09-05,Auriculares,Centro,$6330.52
+2025-03-19,Auriculares,Oeste,$8652.08
+2025-03-14,Consola de videojuegos,Oeste,$9885.10
+2024-10-13,Smartphone,Oeste,$6532.39
+2024-07-31,Smart TV,Centro,$9592.81
+2025-01-20,Auriculares,Sur,$11624.63
+2025-03-29,Smart TV,norte,$7235.67
+2024-09-28,Smart TV,Centro,$11101.42
+2024-11-29,Notebook,Este,$4867.47
+2025-04-25,Smartphone,Centro,$11396.35
+2024-06-21,Smartphone,norte,$4991.24
+2024-11-14,Auriculares,Sur,$4836.01
+2024-11-29,Notebook,Oeste,$8383.32
+2025-05-17,Smartphone,Este,$4921.65
+2025-01-13,Notebook,Centro,$9249.89
+2024-09-14,Smart TV,Oeste,$12408.55
+2025-04-25,Notebook,Centro,$7235.88
+2025-02-28,Notebook,Este,$12286.93
+2025-01-02,Consola de videojuegos,Centro,$5812.43
+2024-06-29,Notebook,Este,$10739.89
+2024-11-07,Smartphone,Sur,$12479.57
+2024-11-04,Auriculares,Este,$8856.15
+2024-12-27,Auriculares,Centro,$10765.78
+2025-04-11,Consola de videojuegos,norte,$7034.17
+2024-07-21,Smart TV,Centro,$10605.50
+2024-11-19,Smart TV,Sur,$8728.46
+2024-08-31,Notebook,Centro,$6774.76
+2024-12-03,Auriculares,Sur,$8686.46
+2024-09-28,Smart TV,Este,$10095.64
+2024-11-15,Smartphone,Sur,$11338.01
+2024-12-26,Auriculares,norte,$11051.12
+2024-11-25,Smart TV,Este,$11699.07
+2024-06-21,Consola de videojuegos,Sur,$10845.85
+2024-10-22,Smartphone,Centro,$10878.94
+2024-07-04,Consola de videojuegos,Oeste,$5279.30
+2024-12-08,Smartphone,Sur,$8205.68
+2025-05-12,Notebook,Centro,$8668.35
+2024-06-13,Auriculares,Este,$10557.85
+2025-02-11,Smart TV,Este,$11518.90
+2025-05-22,Notebook,Oeste,$5298.28
+2024-10-02,Smart TV,Oeste,$10209.92
+2025-02-25,Notebook,Oeste,$6413.86
+2025-03-01,Auriculares,Este,$7734.09
+2024-11-06,Smart TV,Sur,$10913.90
+2024-11-17,Smart TV,Este,$9698.36
+2025-02-01,Smart TV,Sur,$5960.10
+2024-11-23,Consola de videojuegos,Oeste,$9176.23
+2024-10-08,Notebook,Oeste,$11510.05
+2025-01-26,Smartphone,norte,$10132.70
+2024-07-27,Auriculares,Oeste,$9476.39
+2024-09-13,Auriculares,Centro,$7432.79
+2025-03-24,Notebook,Sur,$4680.55
+2025-02-10,Auriculares,Oeste,$10429.56
+2025-03-15,Consola de videojuegos,Oeste,$8646.84
+2025-03-02,Auriculares,norte,$12397.99
+2024-09-19,Auriculares,Oeste,$12069.09
+2024-08-26,Auriculares,Sur,$7348.43
+2024-07-31,Consola de videojuegos,Centro,$9160.32
+2025-01-05,Auriculares,Sur,$6924.71
+2025-02-14,Notebook,Sur,$10958.83
+2024-10-23,Consola de videojuegos,Oeste,$11440.45
+2024-10-26,Auriculares,Este,$9659.57
+2025-03-20,Smart TV,Oeste,$11678.13
+2025-03-18,Smartphone,Oeste,$9593.48
+2025-05-30,Smartphone,Centro,$8027.46
+2024-09-20,Notebook,norte,$10512.37
+2025-04-03,Auriculares,norte,$8479.24
+2024-06-10,Consola de videojuegos,Centro,$10400.42
+2024-08-28,Smart TV,Oeste,$6669.25
+2024-10-02,Notebook,Oeste,$8078.55
+2024-09-02,Smart TV,Este,$12364.62
+2024-08-12,Auriculares,norte,$8240.04
+2025-04-18,Notebook,Este,$6808.27
+2024-07-05,Notebook,norte,$4909.60
+2025-04-01,Smart TV,Este,$11822.85
+2025-03-12,Consola de videojuegos,Sur,$11415.83
+2024-06-15,Smartphone,Este,$10727.36
+2025-01-02,Smart TV,Este,$4865.93
+2025-04-27,Consola de videojuegos,Oeste,$7746.10
+2024-07-03,Auriculares,Sur,$12155.62
+2025-04-05,Smart TV,Este,$6455.49
+2024-11-03,Smart TV,norte,$11018.16
+2024-06-21,Smart TV,norte,$7460.29
+2025-03-11,Smartphone,Sur,$9783.81
+2024-07-24,Consola de videojuegos,Centro,$9721.58
+2024-08-22,Consola de videojuegos,norte,$7920.44
+2024-09-07,Smartphone,Centro,$9228.21
+2025-03-12,Auriculares,Sur,$6858.14
+2025-02-06,Notebook,Oeste,$8867.36
+2024-08-04,Smartphone,Oeste,$7793.40
+2024-07-19,Consola de videojuegos,Sur,$7008.79
+2024-12-12,Smart TV,Este,$10762.32
+2024-11-27,Smart TV,Este,$6067.62
+2025-01-07,Auriculares,Este,$8778.61
+2024-08-17,Consola de videojuegos,Oeste,$11226.78
+2024-11-22,Auriculares,Oeste,$6750.89
+2025-06-06,Smart TV,Sur,$7786.48
+2025-06-05,Auriculares,Sur,$8672.45
+2025-06-05,Smartphone,Este,$11805.12
+2024-09-25,Smart TV,Centro,$10359.91
+2024-10-15,Smartphone,norte,$10311.01
+2025-02-25,Auriculares,Este,$10806.96
+2025-04-22,Consola de videojuegos,norte,$6369.14
+2024-12-28,Notebook,norte,$11867.67
+2024-12-07,Auriculares,Centro,$7080.91
+2025-02-04,Smartphone,Sur,$5318.70
+2024-07-08,Consola de videojuegos,Oeste,$9540.86
+2024-10-07,Smartphone,Oeste,$10855.94
+2025-05-01,Consola de videojuegos,Oeste,$7376.46
+2025-03-12,Auriculares,Este,$6997.97
+2024-07-17,Consola de videojuegos,Oeste,$10037.30
+2024-07-20,Notebook,Oeste,$7968.26
+2024-12-17,Auriculares,Sur,$5624.72
+2024-08-03,Smartphone,Este,$10959.66
+2024-06-28,Smart TV,norte,$8608.87
+2024-09-06,Consola de videojuegos,Oeste,$11827.85
+2024-09-17,Smart TV,Este,$7481.96
+2024-07-17,Smartphone,Sur,$5640.63
+2024-09-13,Notebook,Centro,$4576.70
+2024-10-23,Notebook,Este,$10037.75
+2024-08-29,Smart TV,Sur,$5932.89
+2024-06-13,Notebook,norte,$4623.00
+2025-01-10,Notebook,Sur,$11562.08
+2024-08-17,Auriculares,Centro,$11048.75
+2024-09-15,Auriculares,Este,$8560.35
+2024-10-11,Smart TV,Centro,$11041.41
+2025-04-02,Smart TV,Oeste,$10039.55
+2024-09-16,Auriculares,Sur,$11597.67
+2024-12-26,Smartphone,Este,$5208.75
+2025-05-28,Smart TV,Oeste,$10653.53
+2024-08-10,Auriculares,Sur,$9221.30
+2024-11-24,Notebook,Oeste,$12454.20
+2024-10-31,Smartphone,Este,$10100.04
+2024-08-25,Notebook,Oeste,$8210.03
+2024-08-15,Auriculares,Centro,$10007.25
+2024-10-22,Smart TV,Oeste,$12094.34
+2024-09-12,Auriculares,Sur,$7135.17
+2024-09-17,Smart TV,Oeste,$9860.19
+2024-07-18,Consola de videojuegos,Este,$8458.53
+2024-06-12,Smartphone,Oeste,$11904.61
+2024-08-01,Auriculares,Oeste,$5101.96
+2024-10-03,Auriculares,Oeste,$6384.81
+2025-02-12,Smart TV,Sur,$10908.35
+2025-02-02,Smart TV,Oeste,$11164.97
+2025-01-28,Consola de videojuegos,Oeste,$10846.05
+2024-11-30,Consola de videojuegos,Este,$8954.37
+2025-05-15,Smartphone,Centro,$9020.59
+2024-08-31,Consola de videojuegos,Sur,$10761.03
+2024-12-31,Auriculares,norte,$5868.52
+2024-07-17,Consola de videojuegos,Este,$11528.18
+2024-10-04,Smartphone,Centro,$11225.96
+2024-12-28,Smartphone,Oeste,$5101.44
+2024-11-08,Smartphone,Centro,$5735.38
+2024-09-23,Auriculares,Oeste,$9654.24
+2024-08-25,Notebook,Sur,$6454.65
+2024-11-27,Auriculares,norte,$6939.07
+2024-12-01,Smart TV,Sur,$5167.08
+2025-01-24,Notebook,norte,$11333.98
+2024-07-02,Smart TV,Sur,$5515.04
+2024-06-10,Consola de videojuegos,Centro,$12004.07
+2024-07-29,Smart TV,Este,$5111.89
+2024-07-14,Notebook,Este,$6403.02
+2025-01-25,Notebook,Este,$11218.05
+2025-02-09,Consola de videojuegos,Centro,$12008.39
+2024-10-15,Notebook,Oeste,$10939.48
+2024-08-16,Smart TV,Centro,$7835.78
+2024-12-06,Smartphone,Este,$12064.68
+2024-06-15,Auriculares,norte,$9149.25
+2025-01-15,Notebook,norte,$8797.97
+2024-12-16,Auriculares,Este,$6240.46
+2025-03-26,Notebook,Sur,$11058.36
+2024-08-26,Consola de videojuegos,Oeste,$7902.86
+2024-10-22,Smartphone,norte,$8098.68
+2025-02-01,Consola de videojuegos,Centro,$5216.87
+2024-09-14,Auriculares,norte,$9648.92
+2024-09-06,Smart TV,Oeste,$10005.02
+2025-05-27,Notebook,Centro,$7944.85
+2024-06-26,Smartphone,Este,$8785.75
+2024-08-20,Smart TV,Oeste,$10914.42
+2025-01-01,Consola de videojuegos,norte,$11680.23
+2025-04-06,Consola de videojuegos,Centro,$8249.59
+2024-06-12,Smart TV,Sur,$10079.67
+2025-01-23,Notebook,Centro,$10456.18
+2024-12-21,Auriculares,Oeste,$6350.55
+2025-01-15,Notebook,Oeste,$7612.20
+2024-08-02,Auriculares,Sur,$9178.30
+2024-11-19,Smart TV,norte,$7235.78
+2024-07-12,Auriculares,Este,$6281.33
+2024-08-15,Smartphone,Este,$11404.02
+2024-12-30,Smartphone,Este,$7918.68
+2025-03-18,Smart TV,Oeste,$9277.53
+2025-03-20,Smartphone,norte,$6880.77
+2024-12-15,Notebook,Sur,$4637.53
+2025-04-11,Smart TV,norte,$7440.33
+2025-05-01,Smart TV,norte,$9904.78
+2024-09-15,Auriculares,Centro,$11930.33
+2024-09-26,Smart TV,norte,$8854.54
+2024-06-28,Smartphone,Oeste,$7832.76
+2024-11-12,Consola de videojuegos,Centro,$7988.02
+2025-04-03,Notebook,norte,$10598.32
+2025-04-23,Smart TV,Este,$5449.84
+2024-11-20,Smart TV,Centro,$8790.66
+2024-11-08,Smart TV,Centro,$5918.63
+2024-12-19,Auriculares,norte,$6577.50
+2024-10-11,Smartphone,norte,$5558.37
+2024-11-07,Notebook,Oeste,$11852.56
+2025-01-30,Auriculares,Centro,$11940.13
+2024-08-26,Auriculares,Este,$9465.34
+2024-07-15,Smart TV,norte,$8523.30
+2024-10-01,Consola de videojuegos,Sur,$4663.41
+2024-12-08,Notebook,Oeste,$11233.56
+2024-10-23,Notebook,Centro,$8259.52
+2024-10-12,Notebook,Este,$8758.83
+2025-02-28,Notebook,Oeste,$5615.58
+2024-07-17,Smart TV,Este,$10427.47
+2024-12-07,Smart TV,norte,$10985.60
+2025-03-25,Smartphone,Oeste,$7813.65
+2025-02-15,Smart TV,norte,$7281.31
+2025-02-18,Consola de videojuegos,norte,$12087.17
+2024-07-11,Consola de videojuegos,Oeste,$9174.81
+2025-03-26,Smart TV,norte,$10845.16
+2025-04-12,Smart TV,Oeste,$12344.37
+2024-10-17,Consola de videojuegos,Sur,$10919.84
+2024-08-27,Consola de videojuegos,Centro,$10691.71
+2024-09-13,Smart TV,Este,$7294.00
+2025-02-07,Consola de videojuegos,Oeste,$5450.25
+2025-03-02,Smartphone,Sur,$5516.35
+2024-08-30,Smartphone,Oeste,$9118.79
+2024-11-25,Smartphone,Oeste,$9361.16
+2025-01-17,Notebook,Este,$9296.22
+2025-04-23,Auriculares,Oeste,$12509.25
+2025-05-02,Consola de videojuegos,Oeste,$6466.34
+2025-01-15,Smartphone,Oeste,$9864.47
+2025-05-09,Consola de videojuegos,Este,$6017.29
+2025-01-15,Smartphone,norte,$6764.18
+2025-01-16,Smart TV,Sur,$9487.26
+2024-11-15,Smart TV,Este,$11768.45
+2024-08-17,Auriculares,Oeste,$11622.54
+2024-09-22,Notebook,Sur,$7445.16
+2025-03-24,Auriculares,Centro,$5732.76
+2024-06-24,Smartphone,Este,$8450.19
+2024-12-20,Consola de videojuegos,Este,$11126.40
+2024-11-26,Consola de videojuegos,norte,$7940.96
+2024-07-10,Consola de videojuegos,Este,$9761.42
+2024-07-09,Notebook,Sur,$4650.40
+2024-06-10,Smart TV,norte,$4910.55
+2025-01-10,Smartphone,Este,$8993.06
+2024-10-25,Consola de videojuegos,norte,$12261.25
+2024-06-13,Auriculares,Sur,$9152.71
+2025-05-04,Auriculares,Centro,$7578.22
+2024-10-14,Smartphone,Oeste,$11530.38
+2024-09-14,Consola de videojuegos,Centro,$5285.64
+2024-12-18,Consola de videojuegos,Sur,$7739.55
+2024-08-12,Auriculares,Centro,$8917.38
+2024-09-19,Smartphone,Oeste,$8961.01
+2024-08-22,Smartphone,Este,$8437.30
+2025-05-11,Smartphone,Oeste,$5655.49
+2025-01-31,Consola de videojuegos,Centro,$12526.27
+2025-03-21,Smartphone,norte,$6956.73
+2025-02-27,Smart TV,Sur,$8429.99
+2025-02-09,Notebook,Oeste,$6336.32
+2024-07-19,Smart TV,Centro,$11595.67
+2025-01-15,Smartphone,norte,$10763.18
+2024-09-20,Auriculares,norte,$6224.85
+2025-05-01,Consola de videojuegos,Este,$5650.71
+2025-02-14,Notebook,Sur,$6992.57
+2024-11-22,Auriculares,Sur,$8105.15
+2024-12-13,Auriculares,Centro,$9359.00
+2025-02-25,Smartphone,Este,$7776.40
+2024-08-21,Smart TV,norte,$6085.16
+2024-10-09,Auriculares,Centro,$11050.13
+2025-04-12,Auriculares,Este,$11151.08
+2025-03-11,Smartphone,Oeste,$7047.17
+2024-11-28,Smartphone,Oeste,$10250.03
+2024-08-19,Notebook,Este,$7842.83
+2025-05-20,Auriculares,Sur,$11946.51
+2025-01-02,Notebook,norte,$8542.90
+2024-10-18,Notebook,Sur,$8807.69
+2024-12-09,Consola de videojuegos,Centro,$9062.38
+2024-06-23,Notebook,Sur,$5090.65
+2025-03-25,Consola de videojuegos,Sur,$11767.11
+2024-08-21,Smartphone,Oeste,$7279.51
+2025-01-03,Notebook,Oeste,$9335.41
+2025-04-28,Smartphone,Centro,$9813.19
+2024-12-18,Auriculares,norte,$12115.98
+2024-10-29,Consola de videojuegos,Este,$11686.88
+2025-01-18,Smart TV,Sur,$5781.04
+2025-01-19,Notebook,Este,$10853.45
+2025-05-20,Auriculares,Oeste,$7918.37
+2025-02-05,Notebook,Este,$11757.48
+2025-02-28,Smart TV,Centro,$8719.30
+2024-07-21,Auriculares,Oeste,$8300.87
+2024-07-08,Notebook,Este,$12146.75
+2024-10-04,Notebook,Centro,$7639.22
+2024-08-23,Smart TV,norte,$9854.11
+2024-06-14,Consola de videojuegos,Este,$4992.46
+2024-11-02,Auriculares,Sur,$10983.03
+2025-06-06,Auriculares,Sur,$11509.89
+2024-12-06,Smart TV,Oeste,$8803.36
+2025-01-28,Consola de videojuegos,norte,$5173.87
+2024-07-28,Notebook,Oeste,$7133.72
+2024-09-28,Smart TV,Sur,$11101.81
+2024-08-23,Notebook,norte,$9480.97
+2024-12-28,Smart TV,Oeste,$5585.75
+2024-06-16,Consola de videojuegos,Sur,$11861.79
+2024-12-10,Consola de videojuegos,Centro,$10118.39
+2024-10-08,Smart TV,Centro,$4854.77
+2025-05-06,Consola de videojuegos,Este,$12419.32
+2024-12-18,Smart TV,Centro,$7518.50
+2024-10-26,Smartphone,Oeste,$6931.01
+2025-04-06,Auriculares,Este,$8615.67
+2024-10-14,Smartphone,Oeste,$10447.92
+2024-07-04,Notebook,norte,$11482.54
+2025-02-06,Smart TV,Sur,$7346.06
+2024-09-01,Auriculares,Sur,$11639.19
+2025-05-16,Consola de videojuegos,norte,$5556.28
+2024-08-09,Notebook,Sur,$7565.18
+2024-07-19,Smartphone,Este,$4604.86
+2025-02-16,Notebook,norte,$4626.97
+2024-11-10,Smartphone,Sur,$8935.24
+2024-07-07,Notebook,Sur,$12293.14
+2025-01-29,Consola de videojuegos,Centro,$8208.53
+2025-02-10,Smart TV,norte,$10616.99
+2025-05-05,Smartphone,Oeste,$8237.43
+2025-05-31,Consola de videojuegos,Centro,$10156.73
+2024-06-22,Notebook,Este,$9791.54
+2024-12-05,Auriculares,Centro,$5400.96
+2024-08-21,Smart TV,Este,$6650.94
+2025-01-26,Auriculares,Centro,$11758.47
+2025-04-01,Notebook,Sur,$11509.00
+2025-04-05,Consola de videojuegos,Sur,$11740.36
+2025-03-07,Smartphone,Centro,$6255.13
+2025-02-21,Consola de videojuegos,Sur,$12304.60
+2024-10-23,Smart TV,norte,$11586.64
+2025-02-22,Smart TV,Oeste,$10611.37
+2025-05-28,Notebook,Centro,$7340.33
+2024-07-21,Smartphone,Centro,$8554.03
+2025-03-27,Smart TV,Sur,$11863.65
+2024-11-02,Smartphone,Este,$5740.63
+2024-07-09,Consola de videojuegos,Sur,$6863.87
+2025-04-12,Auriculares,Este,$11927.99
+2024-07-09,Smart TV,Oeste,$5758.14
+2025-05-03,Smart TV,Sur,$12233.68
+2025-04-06,Smart TV,Oeste,$9275.43
+2025-02-21,Notebook,norte,$10063.17
+2025-03-19,Smartphone,norte,$4906.29
+2024-08-04,Smartphone,norte,$7379.07
+2025-01-07,Smart TV,Este,$11048.52
+2024-07-19,Consola de videojuegos,Oeste,$4655.64
+2025-05-31,Notebook,norte,$7839.32
+2025-05-10,Notebook,norte,$11791.55
+2025-01-13,Smart TV,norte,$6522.70
+2024-09-22,Smartphone,Centro,$7711.57
+2024-08-21,Auriculares,Sur,$12517.56
+2024-07-14,Smart TV,Centro,$7220.39
+2025-06-08,Consola de videojuegos,Este,$11475.22
+2024-11-17,Smartphone,Centro,$8210.22
+2024-11-24,Auriculares,norte,$10422.01
+2025-05-13,Consola de videojuegos,Sur,$7391.64
+2025-01-31,Consola de videojuegos,norte,$11898.80
+2024-07-06,Auriculares,Oeste,$8937.63
+2024-12-22,Auriculares,Sur,$6933.07
+2025-02-12,Auriculares,norte,$8613.71
+2025-04-15,Notebook,Oeste,$7734.03
+2024-06-24,Smart TV,Oeste,$12434.93
+2024-09-22,Auriculares,Este,$6092.22
+2025-02-18,Notebook,Centro,$10879.13
+2025-02-08,Smartphone,Sur,$7838.33
+2025-05-09,Smartphone,Sur,$10124.29
+2024-10-06,Smart TV,Centro,$7080.15
+2024-12-04,Auriculares,Este,$7218.73
+2025-04-02,Consola de videojuegos,norte,$8358.52
+2025-05-26,Smart TV,Centro,$9132.57
+2025-06-07,Notebook,Este,$12254.06
+2024-09-08,Consola de videojuegos,norte,$9122.67
+2024-09-13,Smartphone,norte,$11263.15
+2025-03-04,Auriculares,norte,$9030.48
+2025-01-02,Consola de videojuegos,Centro,$9253.65
+2025-05-26,Notebook,Este,$7451.99
+2024-08-28,Consola de videojuegos,Centro,$6802.12
+2025-01-02,Smart TV,Este,$10762.63
+2024-06-16,Notebook,Este,$9944.39
+2024-10-08,Smartphone,Sur,$5854.13
+2024-12-08,Notebook,norte,$9115.91
+2024-11-20,Auriculares,Oeste,$10782.63
+2024-12-10,Auriculares,Este,$5263.42
+2025-05-18,Smartphone,Sur,$7624.46
+2024-12-20,Notebook,norte,$5699.23
+2024-10-30,Smart TV,Este,$12454.27
+2024-09-16,Smart TV,Sur,$9653.10
+2025-03-18,Smart TV,Este,$10539.70
+2025-03-04,Smartphone,Oeste,$11258.16
+2024-11-08,Smartphone,Oeste,$7750.36
+2024-11-02,Auriculares,norte,$8920.12
+2024-09-03,Smart TV,Este,$7351.44
+2024-11-25,Notebook,norte,$11405.56
+2024-12-29,Auriculares,Sur,$12022.13
+2024-06-29,Consola de videojuegos,Centro,$7065.68
+2024-07-17,Auriculares,norte,$12120.87
+2025-03-06,Smart TV,norte,$11933.27
+2024-09-16,Smart TV,norte,$11582.65
+2024-09-03,Consola de videojuegos,Oeste,$6593.67
+2024-10-21,Auriculares,Centro,$8407.64
+2024-08-22,Notebook,Este,$11122.09
+2025-04-02,Smart TV,Este,$5381.03
+2024-06-12,Smart TV,Oeste,$5319.96
+2025-03-12,Auriculares,Centro,$9875.66
+2024-07-20,Smartphone,Oeste,$6155.92
+2025-05-01,Auriculares,Oeste,$10708.85
+2024-11-14,Notebook,Centro,$7395.99
+2025-03-22,Smart TV,Centro,$11632.96
+2024-11-02,Smart TV,Oeste,$6081.78
+2025-05-26,Auriculares,Este,$5754.60
+2025-03-24,Auriculares,norte,$9959.72
+2025-03-22,Consola de videojuegos,Este,$7733.47
+2024-07-10,Smartphone,norte,$6945.01
+2025-03-07,Auriculares,Este,$5009.53
+2024-11-30,Smartphone,Oeste,$10614.82
+2024-12-18,Consola de videojuegos,norte,$8695.53
+2025-04-01,Smartphone,norte,$5056.49
+2025-04-30,Auriculares,Este,$6089.77
+2024-12-23,Auriculares,Centro,$12271.44
+2025-03-08,Notebook,norte,$4643.62
+2024-11-04,Notebook,Oeste,$9051.98
+2025-05-24,Smart TV,Este,$9452.02
+2025-03-07,Notebook,Sur,$8480.62
+2024-11-15,Auriculares,Sur,$11106.96
+2024-11-18,Notebook,norte,$4901.99
+2024-08-30,Auriculares,norte,$10769.43
+2024-09-10,Auriculares,norte,$9383.78
+2025-03-03,Consola de videojuegos,Este,$6835.48
+2025-03-22,Smartphone,Este,$10871.42
+2024-12-07,Consola de videojuegos,Este,$8592.95
+2024-09-07,Smartphone,Oeste,$6876.96
+2024-09-04,Consola de videojuegos,Oeste,$9555.50
+2024-09-14,Smartphone,Centro,$9906.30
+2024-12-26,Consola de videojuegos,Este,$10426.42
+2025-01-31,Consola de videojuegos,Oeste,$8462.41
+2024-09-15,Auriculares,Centro,$12479.84
+2024-09-17,Smart TV,Sur,$6951.32
+2025-03-06,Notebook,Centro,$9736.86
+2025-04-02,Smartphone,norte,$11519.33
+2025-06-05,Consola de videojuegos,Centro,$5768.29
+2025-03-13,Smart TV,Este,$9553.25
+2024-06-21,Smart TV,norte,$11828.58
+2025-01-26,Smartphone,Centro,$9588.67
+2024-09-02,Notebook,norte,$10855.30
+2024-09-08,Smartphone,Este,$7412.36
+2024-12-07,Smart TV,Sur,$12343.34
+2024-11-10,Smart TV,Sur,$11489.67
+2024-12-14,Consola de videojuegos,Centro,$8634.01
+2024-07-23,Auriculares,Centro,$8764.67
+2024-12-28,Smart TV,Sur,$11249.92
+2024-07-10,Smartphone,Este,$9395.65
+2024-12-21,Notebook,Centro,$11020.89
+2024-12-12,Smart TV,norte,$8401.27
+2025-03-02,Smart TV,norte,$6605.78
+2025-03-03,Auriculares,Sur,$12315.07
+2024-10-02,Smart TV,Sur,$9458.62
+2024-09-25,Smartphone,Centro,$10497.55
+2024-07-07,Notebook,Centro,$12228.30
+2024-06-13,Auriculares,Este,$7199.58
+2024-12-19,Auriculares,Centro,$7532.50
+2024-10-25,Smartphone,Este,$10841.37
+2024-10-07,Smartphone,norte,$6435.68
+2025-05-07,Notebook,Oeste,$12396.65
+2025-04-22,Smart TV,Este,$11468.83
+2025-03-21,Smart TV,Centro,$11249.16
+2024-09-20,Smartphone,norte,$4985.44
+2024-08-05,Auriculares,Sur,$8439.94
+2025-03-13,Auriculares,Sur,$7294.50
+2024-11-10,Smart TV,Este,$6925.55
+2024-08-24,Auriculares,norte,$8564.17
+2025-06-05,Smartphone,Este,$6301.93
+2025-03-29,Consola de videojuegos,Centro,$11416.49
+2025-01-10,Notebook,Sur,$11087.54
+2025-01-11,Auriculares,Sur,$11312.78
+2024-11-02,Smartphone,Este,$12357.08
+2025-03-02,Auriculares,Sur,$4886.55
+2024-12-23,Auriculares,Este,$8442.25
+2024-09-03,Auriculares,Sur,$11912.32
+2024-09-05,Consola de videojuegos,Este,$9967.13
+2025-05-31,Smartphone,Este,$5747.00
+2024-09-29,Auriculares,Este,$5422.65
+2024-08-22,Smartphone,Oeste,$8945.49
+2024-09-09,Smart TV,norte,$8736.96
+2024-08-30,Smartphone,Centro,$5497.29
+2025-03-09,Smartphone,Este,$11272.82
+2024-06-21,Notebook,Este,$4918.43
+2024-11-12,Consola de videojuegos,Oeste,$11196.37
+2025-05-13,Notebook,Centro,$8665.62
+2024-09-14,Notebook,norte,$11362.46
+2024-12-12,Consola de videojuegos,Sur,$6285.61
+2024-10-09,Smartphone,Este,$6091.94
+2024-11-09,Auriculares,Centro,$8646.39
+2025-04-30,Consola de videojuegos,Este,$5017.15
+2024-10-11,Consola de videojuegos,Este,$7661.66
+2025-01-04,Consola de videojuegos,Oeste,$7266.12
+2024-09-06,Auriculares,Este,$5891.47
+2024-11-02,Smart TV,norte,$9104.80
+2025-03-24,Consola de videojuegos,Oeste,$12490.28
+2024-08-03,Smartphone,Oeste,$5280.50
+2024-10-23,Smartphone,Sur,$7033.76
+2025-06-05,Consola de videojuegos,Este,$10794.20
+2025-03-17,Consola de videojuegos,Centro,$10299.55
+2024-06-18,Smartphone,Centro,$5201.92
+2024-07-02,Notebook,Oeste,$6729.13
+2024-10-28,Auriculares,Oeste,$11823.32
+2025-05-03,Consola de videojuegos,Sur,$11583.79
+2025-03-07,Auriculares,Oeste,$10773.92
+2024-10-01,Notebook,Oeste,$12084.57
+2025-02-21,Consola de videojuegos,Oeste,$7773.70
+2024-10-24,Auriculares,Centro,$4782.98
+2024-08-11,Notebook,Sur,$4647.26
+2024-06-24,Auriculares,Centro,$7349.51
+2025-04-30,Smart TV,Sur,$10370.47
+2025-04-29,Auriculares,Sur,$7208.18
+2025-01-31,Auriculares,Este,$5070.88
+2025-01-22,Consola de videojuegos,Oeste,$4948.04
+2025-03-17,Smartphone,Centro,$10531.28
+2024-10-27,Consola de videojuegos,Este,$6302.93
