@@ -145,6 +145,7 @@ El proyecto final incluye:
 
 - [`Proyecto Final.py`](./Proyecto%20Final/Proyecto%20Final.py)
 - [`ProyectoFinal.zip`](./Proyecto%20Final/ProyectoFinal.zip)
+- [`Presentación del proyecto final`](./Proyecto%20Final/PresentacionProyectoFinalDA.pdf)
 - [`Fuentes/clientes.csv`](./Proyecto%20Final/Fuentes/clientes.csv)
 - [`Fuentes/marketing.csv`](./Proyecto%20Final/Fuentes/marketing.csv)
 - [`Fuentes/ventas.csv`](./Proyecto%20Final/Fuentes/ventas.csv)
@@ -255,5 +256,6 @@ Cursada Analisis de Datos/
 │   │   ├── marketing.csv
 │   │   └── ventas.csv
 │   ├── Proyecto Final.py
+│   ├── PresentacionProyectoFinalDA.pdf
 └── README.md
 ```
