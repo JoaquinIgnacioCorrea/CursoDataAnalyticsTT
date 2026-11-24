@@ -57,7 +57,6 @@ axs[1].axhline(y=promedio_precio,color="brown")
 axs[1].set_title("Grafico de barras con promedio de ventas por categoria")
 axs[1].set_xlabel("Categorias")
 axs[1].set_ylabel("Precios")
-axs[1]
 
 plt.tight_layout()
 plt.show()

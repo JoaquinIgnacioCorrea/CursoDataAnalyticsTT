@@ -1,7 +1,6 @@
 import pandas as pd
 import plotly.express as px
 import ipywidgets as widgets
-from dash import Dash, dcc, html, Input, Output
 
 # SECCION 1
 # CONSIGNA: Cargar el dataset de ventas ventas_por_region.csv

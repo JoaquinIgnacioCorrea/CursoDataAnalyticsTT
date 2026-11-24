@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+import plotly.express as px
+import ipywidgets as widgets
 
 # SECCION 1
 # CONSIGNA: Realizar un script básico que calcule las ventas mensuales utilizando variables y operadores.
@@ -185,16 +187,8 @@ ventas_marketing_integradas = pd.merge(ventas_totales_por_producto,marketing_lim
 
 print(f"\nCombinacion de total de ventas y marketing por producto:\n{ventas_marketing_integradas}")
 
-# Anexos
-# Archivos ventas
-# Archivos clientes
-# Archivo marketing
-
 # Correcciones Trabajo Final Data Analitycs
-# 1. Hacer prints que indiquen cada paso y que hace
 # 2. Dejar una conclusión final respecto al trabajo previo con las fuentes de datos 
-# 3. Incluir anexos con los archivos que se usaron(link del archivo en la carpeta de drive)
-# 4. Breve descripción de los archivos que se mencionan en anexos
 
 # SECCION 3
 # CONSGINA: Estadística descriptiva: Calcular medidas de tendencia central y dispersión sobre las ventas. 
@@ -234,18 +228,18 @@ print(f"\nMedidas de dispersion de ventas y categoria:\nRango de ventas: {rango_
 
 # a.1.Realizamos la visualizacion de datos correspondiente del EDA
 # a.1.1.Realizamos graficos de barras que comparen monto total tanto en ventas por producto (tomamos los mejores 10) como por categoria
-# plt.bar(ventas_totales_por_producto.index,ventas_totales_por_producto["total_venta"])
-# plt.title("Comparacion de rendimiento por producto")
-# plt.xlabel("Productos")
-# plt.ylabel("Suma total de importe")
-# plt.xticks(rotation=65)
-# plt.show()
+plt.bar(ventas_totales_por_producto.index,ventas_totales_por_producto["total_venta"])
+plt.title("Comparacion de rendimiento por producto")
+plt.xlabel("Productos")
+plt.ylabel("Suma total de importe")
+plt.xticks(rotation=65)
+plt.show()
 
-# plt.bar(ventas_totales_por_categoria.index,ventas_totales_por_categoria["total_venta"])
-# plt.title("Comparacion de rendimiento por categoria")
-# plt.xlabel("categoria")
-# plt.ylabel("Suma total de importe")
-# plt.show()
+plt.bar(ventas_totales_por_categoria.index,ventas_totales_por_categoria["total_venta"])
+plt.title("Comparacion de rendimiento por categoria")
+plt.xlabel("categoria")
+plt.ylabel("Suma total de importe")
+plt.show()
 
 # a.1.2.Realizamos graficos de lineas para ver evolucion de ventas en el tiempo de los productos como sus categorias
 ventas_limpias["mes"] = ventas_limpias["fecha_venta"].dt.month
@@ -255,27 +249,25 @@ venta_mes_producto = ventas_limpias.groupby(["mes","producto"])["total_venta"].s
 ventas_mes_categoria = ventas_limpias.groupby(["mes","categoria"])["total_venta"].sum().reset_index().pivot(
     index="mes",columns="categoria",values="total_venta")
 
-# plt.plot(venta_mes_producto.index,venta_mes_producto.values)
-# plt.title("Evolucion mensual de ventas por producto")
-# plt.xlabel("Meses")
-# plt.ylabel("Suma total de importe")
-# plt.show()
+plt.plot(venta_mes_producto.index,venta_mes_producto.values)
+plt.title("Evolucion mensual de ventas por producto")
+plt.xlabel("Meses")
+plt.ylabel("Suma total de importe")
+plt.show()
 
-# plt.plot(ventas_mes_categoria.index,ventas_mes_categoria.values)
-# plt.title("Evolucion mensual de ventas por categoria")
-# plt.xlabel("Meses")
-# plt.ylabel("Suma total de importe")
-# plt.show()
+plt.plot(ventas_mes_categoria.index,ventas_mes_categoria.values)
+plt.title("Evolucion mensual de ventas por categoria")
+plt.xlabel("Meses")
+plt.ylabel("Suma total de importe")
+plt.show()
 
 # a.1.3.Realizamos grafico histograma para frecuencia en el total de ventas
-# sns.histplot(ventas_limpias["producto"],bins={ventas_limpias["producto"].nunique()},kde=True)
-# plt.title("Distribucion de ventas por producto")
-# plt.xlabel("Producto")
-# plt.ylabel("Frecuencia de venta")
-# plt.xticks(rotation=65)
-# plt.show()
-
-print(ventas_marketing_integradas.columns)
+sns.histplot(ventas_limpias["producto"],bins={ventas_limpias["producto"].nunique()},kde=True)
+plt.title("Distribucion de ventas por producto")
+plt.xlabel("Producto")
+plt.ylabel("Frecuencia de venta")
+plt.xticks(rotation=65)
+plt.show()
 
 # a.2.Realizamos el resumen de datos del EDA
 # a.2.1.Realizamos las descripciones de los datasets
@@ -286,29 +278,29 @@ print(f"\nDescripcion de ventas en general:\n{ventas_limpias.describe()}\nInform
 # CONSGINA: Correlación: Evaluar la relación entre diferentes variables (por ejemplo, precio y cantidad vendida) y mostrar los resultados en 
 # un gráfico.
 # a.1.1.Realizamos graficos de relacion para verificar relaciones entre variables
-# sns.scatterplot(x="precio",y="total_venta",data=ventas_limpias)
-# plt.title("Distribucion entre precio y total de venta")
-# plt.xlabel("Precio")
-# plt.ylabel("Total Venta")
-# plt.show()
+sns.scatterplot(x="precio",y="total_venta",data=ventas_limpias)
+plt.title("Distribucion entre precio y total de venta")
+plt.xlabel("Precio")
+plt.ylabel("Total Venta")
+plt.show()
 
-# sns.scatterplot(x="cantidad",y="total_venta",data=ventas_limpias)
-# plt.title("Distribucion entre total de venta y cantidad")
-# plt.xlabel("Cantidad")
-# plt.ylabel("Total Venta")
-# plt.show()
+sns.scatterplot(x="cantidad",y="total_venta",data=ventas_limpias)
+plt.title("Distribucion entre total de venta y cantidad")
+plt.xlabel("Cantidad")
+plt.ylabel("Total Venta")
+plt.show()
 
-# sns.scatterplot(x="mes",y="total_venta",data=ventas_limpias)
-# plt.title("Distribucion entre total de venta y mes")
-# plt.xlabel("Mes")
-# plt.ylabel("Total Venta")
-# plt.show()
+sns.scatterplot(x="mes",y="total_venta",data=ventas_limpias)
+plt.title("Distribucion entre total de venta y mes")
+plt.xlabel("Mes")
+plt.ylabel("Total Venta")
+plt.show()
 
-# sns.scatterplot(x="precio",y="cantidad",data=ventas_limpias)
-# plt.title("Distribucion entre precio y cantidad")
-# plt.xlabel("Precio")
-# plt.ylabel("Cantidad")
-# plt.show()
+sns.scatterplot(x="precio",y="cantidad",data=ventas_limpias)
+plt.title("Distribucion entre precio y cantidad")
+plt.xlabel("Precio")
+plt.ylabel("Cantidad")
+plt.show()
 
 # CONSGINA: Consolidación de datos: Consolidar todos los análisis previos y preparar un conjunto de datos final que resuma los hallazgos 
 # clave para la presentación.
@@ -367,45 +359,45 @@ ventas_trimestrales = ventas_limpias.groupby(
     values="total_venta"
 )
 
-# for producto in ventas_diarias.columns:
-#     plt.plot(ventas_diarias.index, ventas_diarias[producto], label=producto)
-# plt.title("Evolucion diaria de ventas por producto")
-# plt.xlabel("Dias")
-# plt.ylabel("Suma total de importe")
-# plt.xticks(rotation=45)
-# plt.legend()
-# plt.tight_layout()
-# plt.show()
+for producto in ventas_diarias.columns:
+    plt.plot(ventas_diarias.index, ventas_diarias[producto], label=producto)
+plt.title("Evolucion diaria de ventas por producto")
+plt.xlabel("Dias")
+plt.ylabel("Suma total de importe")
+plt.xticks(rotation=45)
+plt.legend()
+plt.tight_layout()
+plt.show()
 
-# for producto in venta_mes_producto.columns:
-#     plt.plot(venta_mes_producto.index, venta_mes_producto[producto], label=producto)
-# plt.title("Evolucion mensual de ventas por producto")
-# plt.xlabel("Meses")
-# plt.ylabel("Suma total de importe")
-# plt.legend()
-# plt.tight_layout()
-# plt.show()
+for producto in venta_mes_producto.columns:
+    plt.plot(venta_mes_producto.index, venta_mes_producto[producto], label=producto)
+plt.title("Evolucion mensual de ventas por producto")
+plt.xlabel("Meses")
+plt.ylabel("Suma total de importe")
+plt.legend()
+plt.tight_layout()
+plt.show()
 
-# for producto in ventas_trimestrales.columns:
-#     plt.plot(ventas_trimestrales.index.astype(str), ventas_trimestrales[producto], label=producto)
-# plt.title("Evolucion trimestral de ventas por producto")
-# plt.xlabel("Trimestres")
-# plt.ylabel("Suma total de importe")
-# plt.legend()
-# plt.tight_layout()
-# plt.show()
+for producto in ventas_trimestrales.columns:
+    plt.plot(ventas_trimestrales.index.astype(str), ventas_trimestrales[producto], label=producto)
+plt.title("Evolucion trimestral de ventas por producto")
+plt.xlabel("Trimestres")
+plt.ylabel("Suma total de importe")
+plt.legend()
+plt.tight_layout()
+plt.show()
 
 # a.1.2.Realizamos graficos de barras
-# ventas_mes_categoria.plot(kind="bar")
-# plt.title("Ventas mensuales por categoría")
-# plt.xlabel("Meses")
-# plt.ylabel("Importe total de ventas")
-# plt.xticks(rotation=45)
-# plt.legend(title="Categorías")
-# plt.tight_layout()
-# plt.show()
+ventas_mes_categoria.plot(kind="bar")
+plt.title("Ventas mensuales por categoría")
+plt.xlabel("Meses")
+plt.ylabel("Importe total de ventas")
+plt.xticks(rotation=45)
+plt.legend(title="Categorías")
+plt.tight_layout()
+plt.show()
 
-ventas_mes_categoria_trimestre = ventas_limpias.groupby([
+ventas_categoria_trimestre = ventas_limpias.groupby([
     "categoria",
     ventas_limpias["fecha_venta"].dt.to_period("Q").rename("trimestre")]
     )["total_venta"].sum().reset_index().pivot(
@@ -414,14 +406,14 @@ ventas_mes_categoria_trimestre = ventas_limpias.groupby([
         values="total_venta"
     )
 
-# ventas_mes_categoria_trimestre.plot(kind="bar")
-# plt.title("Ventas trimestrales por categoría")
-# plt.xlabel("Trimestres")
-# plt.ylabel("Importe total de ventas")
-# plt.xticks(rotation=45)
-# plt.legend(title="Categorías")
-# plt.tight_layout()
-# plt.show()
+ventas_categoria_trimestre.plot(kind="bar")
+plt.title("Ventas trimestrales por categoría")
+plt.xlabel("Trimestres")
+plt.ylabel("Importe total de ventas")
+plt.xticks(rotation=45)
+plt.legend(title="Categorías")
+plt.tight_layout()
+plt.show()
 
 # a.1.3.Realizamos graficos de dispersion
 sns.scatterplot(
@@ -432,17 +424,115 @@ sns.scatterplot(
 plt.title("Relación entre precio y cantidad vendida por categoría")
 plt.xlabel("Precio del producto")
 plt.ylabel("Cantidad vendida")
-plt.legend(title="Categorías")
 plt.tight_layout()
 plt.show()
 
 # CONSGINA: Visualización avanzada con Seaborn: Desarrollar visualizaciones estadísticas avanzadas, utilizando paletas y estilos para 
 # mejorar la presentación.
+# a.1.1.Generamos un subplot de seaborn con las diferentes ventas mensuales por producto personalizado
+ventas_mes_deco = ventas_limpias[ventas_limpias["categoria"] == "decoración"].groupby(["producto","mes"])["total_venta"].sum().reset_index()
+ventas_mes_electrodo = ventas_limpias[ventas_limpias["categoria"] == "electrodomésticos"].groupby(["producto","mes"])["total_venta"].sum().reset_index()
+ventas_mes_electro = ventas_limpias[ventas_limpias["categoria"] == "electrónica"].groupby(["producto","mes"])["total_venta"].sum().reset_index()
 
+fig, axs = plt.subplots(3,1)
+sns.lineplot(x="mes",y="total_venta",hue="producto",data=ventas_mes_deco,ax=axs[0], marker="o")
+axs[0].set_title("Distribucion de ventas por mes decoración")
+axs[0].set_ylabel("Importe de venta")
 
+sns.lineplot(x="mes",y="total_venta",hue="producto",data=ventas_mes_electrodo,ax=axs[1], marker="o")
+axs[1].set_title("Distribucion de ventas por mes electrodomésticos")
+axs[1].set_ylabel("Importe de venta")
+
+sns.lineplot(x="mes",y="total_venta",hue="producto",data=ventas_mes_electro,ax=axs[2], marker="o")
+axs[2].set_title("Distribucion de ventas por mes electrónica")
+axs[2].set_ylabel("Importe de venta")
+
+for ax in axs:
+    ax.grid(True, linestyle="--", alpha=0.5)
+
+plt.subplots_adjust(hspace=0.5)
+plt.tight_layout()
+plt.show()
+
+# a.1.2.Generamos segundo subplot con graficos no contemplados anteriormente (heatmap y violin plot)
+fig, axs = plt.subplots(1,2)
+sns.boxplot(data=ventas_limpias,x="categoria",y="total_venta",hue="categoria",palette="Set2",ax=axs[0])
+axs[0].set_title("Distribución de importes de venta por categoría")
+axs[0].set_xlabel("Categoría")
+axs[0].set_ylabel("Importe de venta")
+axs[0].grid(axis="y", linestyle="--", alpha=0.4)
+
+sns.violinplot(
+    data=ventas_limpias,
+    x="categoria",
+    y="total_venta",
+    hue="categoria",
+    palette="Pastel1",
+    inner="quart",
+    legend=False,
+    ax=axs[1]
+)
+axs[1].set_title("Densidad de importes de venta por categoría")
+axs[1].set_xlabel("Categoría")
+axs[1].set_ylabel("Importe de venta")
+axs[1].grid(axis="y", linestyle="--", alpha=0.4)
+
+plt.tight_layout()
+plt.show()
+
+correlacion = ventas_limpias[["precio","cantidad","total_venta"]].corr()
+
+sns.heatmap(data=correlacion,annot=True,cmap="coolwarm",
+    fmt=".2f",
+    linewidths=0.5)
+plt.title("Matriz de correlación de variables de ventas")
+plt.tight_layout()
+plt.show()
 
 # CONSGINA: Visualización interactiva con Plotly: Construir un dashboard interactivo que combine múltiples visualizaciones, permitiendo al 
 # usuario explorar los datos dinámicamente.
+# a.1.1.Preparamos selectores para los graficos interactivos
+
+selector_categoria = widgets.Dropdown(options=['decoración', 'electrodomésticos', 'electrónica'],value="electrónica",
+                            description="Categoria:")
+
+# a.1.2.Realizamos funciones de graficos interactivos con sus respectivos llamados
+
+def grafico_bar_categoria(categoria):
+    data = ventas_limpias[ventas_limpias["categoria"] == categoria].groupby("producto")["total_venta"].sum().reset_index()
+    fig = px.bar(data,x="producto", y="total_venta", 
+                  title=f"Ventas anuales de productos de la categoria {categoria}")
+    fig.show()
+
+grafico_bar_categoria(selector_categoria.value)
+widgets.interact(grafico_bar_categoria,categoria=selector_categoria)
+
+def grafico_lineas_categoria(categoria):
+        data = ventas_limpias[ventas_limpias["categoria"] == categoria].groupby(["producto","mes"])["total_venta"].sum().reset_index()
+        fig = px.line(data,x="mes",y="total_venta",markers=True,color="producto",
+                  title=f"Ventas anuales de productos de la categoria {categoria}")
+        fig.show()
+
+grafico_lineas_categoria(selector_categoria.value)
+widgets.interact(grafico_lineas_categoria,categoria=selector_categoria)
+
+def grafico_dispersion_categoria(categoria):
+    data = ventas_limpias[ventas_limpias["categoria"] == categoria]
+    fig = px.scatter(data,
+        x="precio",
+        y="cantidad",
+        color="categoria",
+        size="total_venta",
+        hover_data=["producto", "fecha_venta", "total_venta"],
+        color_discrete_sequence=px.colors.qualitative.Set2,
+        title="Relación entre precio y cantidad vendida")
+    fig.show()
+
+grafico_dispersion_categoria(selector_categoria.value)
+widgets.interact(grafico_dispersion_categoria,categoria=selector_categoria)
+
 
 # CONSGINA: Presentación final: Preparar una presentación que resuma los hallazgos, insights y visualizaciones generadas a lo largo del 
 # proyecto. Presentar ante un panel simulado de "expertos" en SynthData, recibiendo feedback sobre el trabajo realizado.
+
+

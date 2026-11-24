@@ -131,11 +131,20 @@ Prácticas de análisis y auditoría de datos de ventas utilizando Python y arch
 
 ### [Proyecto final](./Proyecto%20Final/)
 
-Aplicación de los contenidos desarrollados durante el curso en un proyecto de análisis de datos sobre ventas y acciones de marketing.
+Aplicación integral de los contenidos desarrollados durante el curso en un proyecto de análisis de datos sobre ventas y acciones de marketing, con las fuentes complementarias del proyecto incluidas en el repositorio.
 
-La preentrega incluye el análisis exploratorio y el control de calidad de los datos de ventas, la limpieza y transformación de los registros, el cálculo de ventas por producto y categoría, y la integración de ventas con marketing mediante una combinación por producto.
+El proyecto final incluye:
+
+- análisis exploratorio y control de calidad de los datos;
+- limpieza, transformación y consolidación de los registros de ventas;
+- cálculo de ventas, cantidades y medidas estadísticas por producto y categoría;
+- integración de ventas con campañas de marketing y análisis del gasto por canal;
+- visualizaciones con Matplotlib y Seaborn para analizar tendencias, distribuciones y correlaciones;
+- gráficos interactivos con Plotly e `ipywidgets` para explorar los resultados por categoría;
+- un análisis final consolidado para comparar el rendimiento de cada categoría.
 
 - [`Proyecto Final.py`](./Proyecto%20Final/Proyecto%20Final.py)
+- [`ProyectoFinal.zip`](./Proyecto%20Final/ProyectoFinal.zip)
 - [`Fuentes/clientes.csv`](./Proyecto%20Final/Fuentes/clientes.csv)
 - [`Fuentes/marketing.csv`](./Proyecto%20Final/Fuentes/marketing.csv)
 - [`Fuentes/ventas.csv`](./Proyecto%20Final/Fuentes/ventas.csv)
@@ -144,12 +153,14 @@ La preentrega incluye el análisis exploratorio y el control de calidad de los d
 
 ## Cómo ejecutar
 
-Los scripts utilizan Python y, según la clase, las librerías `pandas`, `numpy` y `seaborn`. Para ejecutar el proyecto final:
+Los scripts utilizan Python y, según la clase, las librerías `pandas`, `numpy`, `matplotlib`, `seaborn`, `plotly` e `ipywidgets`. Para ejecutar el proyecto final:
 
 ```powershell
-python -m pip install pandas numpy seaborn openpyxl
+python -m pip install pandas numpy matplotlib seaborn plotly ipywidgets openpyxl
 python "Proyecto Final/Proyecto Final.py"
 ```
+
+El proyecto final genera gráficos estáticos y visualizaciones interactivas. Para interactuar con los selectores de categoría, se recomienda ejecutarlo en Jupyter Notebook o en un entorno compatible con `ipywidgets`.
 
 Para ejecutar las visualizaciones interactivas de la Clase 15:
 
@@ -243,6 +254,6 @@ Cursada Analisis de Datos/
 │   │   ├── clientes.csv
 │   │   ├── marketing.csv
 │   │   └── ventas.csv
-│   └── Proyecto Final.py
+│   ├── Proyecto Final.py
 └── README.md
 ```
